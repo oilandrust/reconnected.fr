@@ -27,7 +27,7 @@ npm run preview
 
 The build uses **vite-react-ssg** to prerender the full page into static HTML. Crawlers and social previews receive all content and meta tags without running JavaScript.
 
-Optional: set `VITE_SITE_URL` in `.env` (see `.env.example`) if deploying to a different domain than `https://www.re-connected.fr`.
+Optional: set `VITE_SITE_URL` in `.env` (see `.env.example`) if deploying elsewhere than `https://www.re-connected.fr`.
 
 ## SEO
 
@@ -41,17 +41,26 @@ Edit SEO defaults in `src/config/site.ts` and `src/components/SeoHead.tsx`.
 
 ## Deployment (GitHub Pages)
 
-Live site: **https://oilandrust.github.io/reconnected.fr/**
+Live site: **https://www.re-connected.fr/** (GitHub Pages via [reconnected.fr](https://github.com/oilandrust/reconnected.fr))
 
-Pushes to `main` trigger the GitHub Actions workflow (`.github/workflows/deploy.yml`), which builds with prerendering and deploys to GitHub Pages.
+Pushes to `main` trigger the GitHub Actions workflow, which builds with prerendering and deploys to GitHub Pages.
 
-### Custom domain (later)
+### DNS (required at your domain registrar)
 
-1. In the repo: **Settings → Pages → Custom domain** → enter your domain (e.g. `reconnected.fr`)
-2. Add DNS records at your registrar (GitHub will show the required A/CNAME records)
-3. Update the workflow env `VITE_SITE_URL` to your domain
-4. Update `public/sitemap.xml` and `public/robots.txt` with the final URL
-5. Remove `GITHUB_PAGES: 'true'` from the workflow (base path becomes `/` for a custom domain)
+GitHub expects **`www`** as a CNAME, not an A record.
+
+| Host | Type | Value |
+|------|------|-------|
+| `www` | **CNAME** | `oilandrust.github.io` |
+| `@` (apex) | **A** | `185.199.108.153` |
+| `@` | **A** | `185.199.109.153` |
+| `@` | **A** | `185.199.110.153` |
+| `@` | **A** | `185.199.111.153` |
+
+**Important:** Remove any existing **A record** on `www` (currently pointing to `3.67.107.69`, your old WordPress host). You cannot have both an A record and a CNAME on the same name.
+
+After DNS changes propagate (minutes to 48h), verify in the repo under **Settings → Pages → Custom domain**. Enable **Enforce HTTPS** once the certificate is issued.
+
 
 
 ## Project structure

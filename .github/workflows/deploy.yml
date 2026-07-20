@@ -33,8 +33,7 @@ jobs:
       - name: Build
         run: npm run build
         env:
-          GITHUB_PAGES: 'true'
-          VITE_SITE_URL: https://oilandrust.github.io/reconnected.fr
+          VITE_SITE_URL: https://www.re-connected.fr
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
