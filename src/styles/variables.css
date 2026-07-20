@@ -1,0 +1,32 @@
+:root {
+  --color-base: #ffffff;
+  --color-contrast: #111111;
+  --color-accent-1: #ffee58;
+  --color-accent-2: #f6cff4;
+  --color-accent-3: #503aa8;
+  --color-accent-4: #686868;
+  --color-accent-5: #fbfaf3;
+
+  --font-family: Manrope, sans-serif;
+  --font-family-mono: 'Fira Code', monospace;
+
+  --font-size-small: 0.875rem;
+  --font-size-medium: clamp(1rem, 1rem + ((1vw - 0.2rem) * 0.196), 1.125rem);
+  --font-size-large: clamp(1.125rem, 1.125rem + ((1vw - 0.2rem) * 0.392), 1.375rem);
+  --font-size-x-large: clamp(1.75rem, 1.75rem + ((1vw - 0.2rem) * 0.392), 2rem);
+  --font-size-xx-large: clamp(2.15rem, 2.15rem + ((1vw - 0.2rem) * 1.333), 3rem);
+  --font-size-display: clamp(2.2rem, 2.2rem + ((1vw - 0.2rem) * 1.333), 3.5rem);
+
+  --spacing-10: 10px;
+  --spacing-20: 20px;
+  --spacing-30: 20px;
+  --spacing-40: 30px;
+  --spacing-50: clamp(30px, 5vw, 50px);
+  --spacing-60: clamp(30px, 7vw, 70px);
+  --spacing-70: clamp(50px, 7vw, 90px);
+  --spacing-80: clamp(70px, 10vw, 140px);
+
+  --content-size: 645px;
+  --wide-size: 1340px;
+  --block-gap: 1.2rem;
+}
