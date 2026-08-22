@@ -28,6 +28,9 @@
   "optionalDependencies": {
     "@rolldown/binding-darwin-arm64": "1.1.5",
     "@rolldown/binding-darwin-x64": "1.1.5",
-    "@rolldown/binding-linux-x64-gnu": "1.1.5"
+    "@rolldown/binding-linux-x64-gnu": "1.1.5",
+    "lightningcss-darwin-arm64": "1.33.0",
+    "lightningcss-darwin-x64": "1.33.0",
+    "lightningcss-linux-x64-gnu": "1.33.0"
   }
 }
