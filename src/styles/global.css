@@ -9,12 +9,14 @@
 
 html {
   scroll-behavior: smooth;
+  color-scheme: light only;
 }
 
 body {
   margin: 0;
   background-color: var(--color-base);
   color: var(--color-contrast);
+  color-scheme: light only;
   font-family: var(--font-family);
   font-size: var(--font-size-large);
   font-weight: 300;

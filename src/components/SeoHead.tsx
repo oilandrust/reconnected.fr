@@ -58,7 +58,8 @@ const structuredData = {
 export function SeoHead() {
   return (
     <Head>
-      <html lang="en" />
+      <html lang="en" className="light" />
+      <meta name="color-scheme" content="light only" />
       <title>{SITE_NAME}</title>
       <meta name="description" content={SITE_DESCRIPTION} />
       <meta name="keywords" content={SITE_KEYWORDS} />
