@@ -1,85 +1,55 @@
-# (Re)Connected
+# re-connected.fr
 
-A React + Vite port of [re-connected.fr](https://www.re-connected.fr/) — somatic therapy and Hakomi practice website for Olivier Rouiller.
+Bilingual (FR at `/`, EN at `/en/`) static site for Olivier Rouiller, psychopraticien. Built with `@lefolio/engine`: the copy lives in Markdown in `Content/`, the look lives in a site-local template in `src/reconnected/`.
 
-## Stack
-
-- **React 19** + **TypeScript** + **Vite**
-- Content in Markdown (`Content/`) with YAML frontmatter
-- **Manrope** and **Fira Code** fonts (from WordPress Twenty Twenty-Five theme)
-- Original color palette and layout preserved
-
-## Getting started
+## Commands
 
 ```bash
 npm install
-npm run dev
+npm run dev       # live preview (lefolio dev)
+npm run build     # static export to out/ + postbuild (lang, redirects, sitemap, robots, CNAME)
+npm run preview   # serve out/
+npm run images    # re-encode source photos from ../re-connected/public/images into Content/Assets/*.webp
 ```
 
-Open [http://localhost:5173](http://localhost:5173).
-
-## Build
-
-```bash
-npm run build
-npm run preview
-```
-
-The build uses **vite-react-ssg** to prerender the full page into static HTML. Crawlers and social previews receive all content and meta tags without running JavaScript.
-
-Optional: set `VITE_SITE_URL` in `.env` (see `.env.example`) if deploying elsewhere than `https://www.re-connected.fr`.
-
-## SEO
-
-- Prerendered HTML with full page content at build time
-- Open Graph and Twitter Card meta tags
-- JSON-LD structured data (Person, ProfessionalService, WebSite)
-- `public/robots.txt` and `public/sitemap.xml`
-- Canonical URL and meta description
-
-Edit SEO defaults in `src/config/site.ts` and `src/components/SeoHead.tsx`.
-
-## Deployment (GitHub Pages)
-
-Live site: **https://www.re-connected.fr/** (GitHub Pages via [reconnected.fr](https://github.com/oilandrust/reconnected.fr))
-
-Pushes to `main` trigger the GitHub Actions workflow, which builds with prerendering and deploys to GitHub Pages.
-
-### DNS (required at your domain registrar)
-
-GitHub expects **`www`** as a CNAME, not an A record.
-
-| Host | Type | Value |
-|------|------|-------|
-| `www` | **CNAME** | `oilandrust.github.io` |
-| `@` (apex) | **A** | `185.199.108.153` |
-| `@` | **A** | `185.199.109.153` |
-| `@` | **A** | `185.199.110.153` |
-| `@` | **A** | `185.199.111.153` |
-
-**Important:** Remove any existing **A record** on `www` (currently pointing to `3.67.107.69`, your old WordPress host). You cannot have both an A record and a CNAME on the same name.
-
-After DNS changes propagate (minutes to 48h), verify in the repo under **Settings → Pages → Custom domain**. Enable **Enforce HTTPS** once the certificate is issued.
-
-
-
-## Project structure
-
-```
-Content/           Markdown content files (editable copy)
-public/
-  fonts/           Manrope & Fira Code variable fonts
-  images/          Site images downloaded from WordPress
-src/
-  components/      React section components
-  content/         Markdown loader (gray-matter)
-  styles/          CSS variables, fonts, global styles
-```
+Pushing to `main` deploys `out/` to GitHub Pages (`.github/workflows/deploy.yml`).
 
 ## Content
 
-Edit any file in `Content/` to update site copy. Each file uses frontmatter for metadata (images, CTAs, etc.) and Markdown for body text.
+```
+Content/
+  config.yaml            site settings, menus, contact/booking links, FR↔EN routes, redirects
+  Accueil.md             FR home (/)
+  Approche.md …          FR pages → /approche/, /seances-et-tarifs/, …
+  En/En.md               EN home (/en/)
+  En/Approach.md …       EN pages → /en/approach/, …
+  Assets/                images and favicon
+```
 
-## Contact
+- The URL is the slugified file name. To hide a page, add `published: false` to its frontmatter (Workshops/Ateliers are hidden this way; also uncomment their menu entry in `config.yaml` when publishing).
+- When adding a page, add its FR↔EN pair under `routes` in `config.yaml` so the language switch and hreflang tags point to the right page.
+- Special link targets resolved from `config.yaml`: `#booking` (discovery call, per language), `#email`, `#workshops`.
+- `<!-- TODO: … -->` comments are never rendered; they mark information still to confirm.
+- Images: files starting with `deco-` are decorative (empty alt). Other images get the alt text "Olivier Rouiller, {jobTitle}".
 
-The WordPress contact form has been replaced with a mailto button: **o.rouiller@gmail.com**
+## Blocks
+
+Write `::: name` … `:::` in a page. Inside a block, `## Heading` is the section title, a line made only of links becomes buttons (first is primary), and an image embed `![[file.webp]]` is the section image.
+
+| Block | Content |
+| --- | --- |
+| `seo` | `title:`, `description:`, optional `schema: service`. Sets title, canonical, hreflang, Open Graph, JSON-LD. One per page. |
+| `hero` | Optional eyebrow line, `# H1`, optional `## subtitle`, text, optional image, buttons. |
+| `split` | Text beside an image. Put the image before the heading to place it on the left. |
+| `checklist` | Title, intro, `- item` list (leaf cards). |
+| `facts` | `- **Label** · value` list. |
+| `cards` | `### Card` sections, or `- **Lead** · text` items. |
+| `steps` | Numbered `1.` list. |
+| `pricing` | `### Tier`, a `**40 €** / séance` line, description. Text after `---` is a note under the tiers. |
+| `timeline` | `- **Date** · entry` list. |
+| `faq` | `### Question` followed by the answer. Also emits FAQPage JSON-LD. |
+| `testimonials` | `### Name` followed by a `> quote`. |
+| `notice` | Highlighted note. |
+| `cta` | Dark closing band with a title, text and buttons. |
+
+Each block has a parser in `src/reconnected/lib/parse.ts` and a component in `src/reconnected/components/`. Register new ones in `src/reconnected/index.ts`.

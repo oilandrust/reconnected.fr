@@ -1,0 +1,5 @@
+@reference "@lefolio/engine/globals.css";
+
+@import "@fontsource-variable/fraunces/index.css";
+@import "@fontsource-variable/manrope/index.css";
+@import "./theme.css";
