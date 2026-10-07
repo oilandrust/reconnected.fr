@@ -29,8 +29,7 @@ export default function Hero({ content }: MarkdownBlockProps) {
         </div>
         {image ? (
           <div className="rc-hero__media">
-            <Figure image={image} className="rc-figure--arch" priority />
-            <span className="rc-hero__halo" aria-hidden="true" />
+            <Figure image={image} className="rc-figure--square" priority />
           </div>
         ) : null}
       </div>

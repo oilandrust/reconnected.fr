@@ -26,7 +26,7 @@ export default function Split({ content }: MarkdownBlockProps) {
         </div>
         {image ? (
           <div className="rc-split__media">
-            <Figure image={image} className={image.decorative ? 'rc-figure--soft' : 'rc-figure--arch'} />
+            <Figure image={image} className="rc-figure--square" />
           </div>
         ) : null}
       </div>

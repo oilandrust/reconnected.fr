@@ -9,30 +9,29 @@ schema: service
 :::
 
 ::: hero
-Olivier Rouiller · Psychopraticien · En visio, basé à Strasbourg
+Olivier Rouiller · Psychopraticien
+# Thérapie psychocorporelle et relationnelle à Strasbourg et en ligne
 
-# Thérapie psychocorporelle à Strasbourg et en ligne
+## Vivez plus de connexion et d'intimité
 
-## (Re)trouver le lien avec vous-même, avec votre corps et avec les autres.
-
-Je vous propose un accompagnement psychocorporel inspiré de la méthode Hakomi : un travail doux, en pleine conscience, qui part de ce que vous vivez ici et maintenant (vos sensations, vos émotions, vos élans) pour mieux comprendre ce qui se rejoue en vous et dans vos relations.
+Je propose une thérapie somatique et relationnelle, qui permet de recalibrer en douceur votre système nerveux pour plus de sécurité dans le lien.
 
 ![[olivier-rouiller.webp]]
 
-[Réserver un appel découverte gratuit (20 min)](#booking)
+[Réserver un appel découverte gratuit](#booking)
 [Découvrir l'approche](/approche/)
 :::
+
+![[deco-hero-mountain.webp]]
 
 ::: checklist
 ## Vous vous reconnaissez peut-être…
 
 - Les mêmes schémas se répètent dans vos relations : vous vous effacez, vous vous suradaptez, ou vous vous fermez dès que ça devient proche.
-- Vous comprenez beaucoup de choses « dans la tête », mais quelque chose dans le corps ne suit pas.
 - Vous vivez avec une tension de fond, de l'anxiété, une difficulté à vous poser ou à vous détendre.
 - Il vous est difficile de dire non, de poser vos limites ou d'exprimer ce que vous ressentez vraiment.
 - Une voix intérieure critique, de la honte ou le sentiment de « ne pas être assez » prennent beaucoup de place.
 - Des expériences passées douloureuses pèsent encore sur votre présent.
-- Vous traversez une transition (séparation, expatriation, changement de vie) et vous avez besoin d'un espace pour vous retrouver.
 :::
 
 ::: split
@@ -40,7 +39,7 @@ Je vous propose un accompagnement psychocorporel inspiré de la méthode Hakomi 
 
 ## Ce qui peut changer
 
-Chaque parcours est unique et je ne promets pas de résultat. Mais voici ce que les personnes que j'accompagne décrivent souvent au fil du travail :
+Chaque parcours est unique et, mais voici ce que les personnes que j'accompagne décrivent souvent au fil du travail :
 
 - plus d'aise et de présence dans leur corps ;
 - la capacité de repérer leurs schémas au moment où ils se produisent, et d'avoir un peu plus de choix ;
@@ -54,7 +53,7 @@ Chaque parcours est unique et je ne promets pas de résultat. Mais voici ce que 
 
 Le travail s'appuie sur la pleine conscience et la curiosité bienveillante. Nous prenons le temps d'installer un climat de confiance et de sécurité. Puis nous explorons ensemble, à votre rythme, ce qui se présente : une sensation, une émotion, un souvenir, une croyance. C'est souvent là que des parts de vous plus vulnérables peuvent enfin être accueillies.
 
-Ma pratique est inspirée de la méthode Hakomi et nourrie par le Focusing, les approches de l'attachement et les approches du trauma.
+Ma pratique est inspirée de la méthode Hakomi et nourrie par le Focusing, les approches de l'attachement et les thérapies du psycho-trauma.
 
 [Découvrir l'approche](/approche/)
 
@@ -65,10 +64,9 @@ Ma pratique est inspirée de la méthode Hakomi et nourrie par le Focusing, les 
 ## En pratique
 
 - **1 heure** · Séances individuelles ou en couple
-- **En visio** · Présentiel à Strasbourg : bientôt
+- **En visio** · En présentiel à Strasbourg, demandez
 - **Français ou anglais** · Selon ce qui vous est le plus naturel
-- **40 à 89 €** · Tarif solidaire, que vous choisissez selon vos ressources
-- **20 minutes offertes** · Un premier appel gratuit pour faire connaissance
+- **40 à 89 €** · Tarif solidaire selon vos ressources
 
 [Séances & tarifs](/seances-et-tarifs/)
 :::

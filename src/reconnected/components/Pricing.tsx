@@ -13,7 +13,7 @@ export default function Pricing({ content }: MarkdownBlockProps) {
   const featured = tiers.length % 2 === 1 ? Math.floor(tiers.length / 2) : -1;
 
   return (
-    <section className="rc-block rc-pricing rc-surface--soft">
+    <section className="rc-block rc-pricing">
       <div className="rc-container">
         {title ? (
           <SectionTitle centered>

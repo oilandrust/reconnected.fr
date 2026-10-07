@@ -3,7 +3,7 @@ title: Approche
 ---
 
 ::: seo
-title: Approche psychocorporelle inspirée de Hakomi – Strasbourg
+title: Approche psychocorporelle et relationnelle inspirée de Hakomi – Strasbourg
 description: Pleine conscience, corps et relation : découvrez l'approche Hakomi, le Focusing et le travail sur l'attachement, et le déroulement d'une séance.
 :::
 
@@ -54,12 +54,6 @@ Vous restez toujours libre de ralentir, de faire une pause ou de dire non. En vi
 ## Pour qui ?
 
 Pour les adultes, seuls ou en couple, qui souhaitent mieux se comprendre et vivre leurs relations avec plus d'authenticité. Vous n'avez pas besoin d'avoir une expérience de la méditation ni de « savoir sentir votre corps » : cela s'apprend en chemin.
-:::
-
-::: notice
-## Les limites de cet accompagnement
-
-Je suis psychopraticien, pas médecin ni psychologue. Mon accompagnement ne remplace pas un suivi médical ou psychiatrique et ne pose pas de diagnostic. Si vous traversez une crise aiguë, si vous êtes en danger, ou si votre situation demande un suivi médical, je vous orienterai vers les professionnels adaptés. Le cas échéant, mon accompagnement peut se faire en complément de ce suivi.
 :::
 
 ::: cta

@@ -10,7 +10,7 @@ export default function Cta({ content }: MarkdownBlockProps) {
 
   return (
     <section
-      className="rc-block rc-cta rc-surface--deep"
+      className="rc-block rc-cta"
       style={image ? { ['--rc-cta-image' as string]: `url("${image.src}")` } : undefined}
     >
       <div className="rc-container rc-container--narrow rc-cta__inner">
@@ -20,7 +20,7 @@ export default function Cta({ content }: MarkdownBlockProps) {
           </h2>
         ) : null}
         <Md content={body} className="rc-lead rc-lead--center" />
-        <Actions actions={actions} align="center" tone="dark" />
+        <Actions actions={actions} align="center" />
       </div>
     </section>
   );

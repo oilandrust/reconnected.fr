@@ -29,7 +29,6 @@ Un échange de **20 minutes**, en visio, gratuit et sans engagement. Vous me dit
 - **Format** · En visio. Présentiel à Strasbourg : bientôt
 - **Langues** · Français ou anglais
 - **Pour qui** · Adultes, en individuel ou en couple
-- **Rythme** · Le plus souvent hebdomadaire ou tous les quinze jours. Nous en décidons ensemble, et vous pouvez arrêter quand vous le souhaitez.
 :::
 
 ::: pricing

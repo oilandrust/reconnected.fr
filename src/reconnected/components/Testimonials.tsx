@@ -9,7 +9,7 @@ export default function Testimonials({ content }: MarkdownBlockProps) {
   const { title, intro, items } = parseTestimonials(content);
 
   return (
-    <section className="rc-block rc-testimonials rc-surface--deep">
+    <section className="rc-block rc-testimonials">
       <div className="rc-container">
         {title ? (
           <SectionTitle centered>

@@ -24,6 +24,8 @@ I offer body-centred, mindfulness-based sessions informed by the Hakomi method. 
 [Read about the approach](/en/approach/)
 :::
 
+![[deco-hero-mountain.webp]]
+
 ::: checklist
 ## You might recognise yourself here
 

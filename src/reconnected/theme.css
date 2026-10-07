@@ -1,41 +1,45 @@
 /* Layout + components for the `reconnected` template. */
 
-/* "Forêt": misty forest greens, warm paper, sunrise gold (from the site photos). */
+/* "Ligne": white page, black type, one gold rule, square images. */
 [data-template="reconnected"] {
-  --color-bg: #f7f3ec;
-  --color-bg-alt: #ece9df;
-  --color-bg-elevated: #fffdf8;
-  --color-text: #1f2a24;
-  --color-text-muted: #56615a;
-  --color-border: #dcd5c6;
-  --color-primary: #2f5141;
-  --color-primary-hover: #213a2e;
-  --color-on-primary: #fffdf8;
+  --color-bg: #ffffff;
+  --color-bg-alt: #f6f6f4;
+  --color-bg-elevated: #ffffff;
+  --color-text: #141414;
+  --color-text-muted: #5e5e5e;
+  --color-border: #e6e6e2;
+  --color-primary: #141414;
+  --color-primary-hover: #000000;
+  --color-on-primary: #ffffff;
 
-  --rc-accent: #c98a3e;
-  --rc-accent-text: #8f561b;
-  --rc-soft: #e7ebe0;
-  --rc-deep: #1e3128;
-  --rc-deep-text: #f1ece2;
-  --rc-deep-muted: #c3cbbf;
+  --rc-accent: #9a7b4f;
+  --rc-accent-text: #9a7b4f;
+  --rc-soft: #ffffff;
+  --rc-deep: #141414;
+  --rc-deep-text: #f7f7f5;
+  --rc-deep-muted: #5e5e5e;
 
-  --font-sans: 'Manrope Variable', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif;
-  --font-heading: 'Fraunces Variable', ui-serif, Georgia, 'Times New Roman', serif;
+  --font-sans: "Avenir Next", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-heading: Palatino, "Palatino Linotype", "Iowan Old Style", "Times New Roman", serif;
   --text-base: 1.0625rem;
   --leading-body: 1.7;
   --rc-max: 72rem;
   --rc-narrow: 46rem;
   --rc-gutter: clamp(1.25rem, 4vw, 2.5rem);
   --rc-section: clamp(3.5rem, 8vw, 6.5rem);
-  --rc-radius: 1.25rem;
-  --rc-radius-sm: 0.75rem;
-  --rc-shadow: 0 1px 2px rgb(30 49 40 / 0.05), 0 12px 32px -18px rgb(30 49 40 / 0.25);
+  --rc-radius: 0;
+  --rc-radius-sm: 0;
+  --rc-shadow: none;
   scroll-behavior: smooth;
 }
 
 [data-template="reconnected"] body {
   font-family: var(--font-sans);
-  font-feature-settings: 'ss01';
+  font-size: 1.05rem;
+  font-weight: 400;
+  line-height: 1.65;
+  -webkit-font-smoothing: auto;
+  -moz-osx-font-smoothing: auto;
 }
 
 [data-template="reconnected"] ::selection {
@@ -84,11 +88,25 @@
   margin-inline: auto;
 }
 
-[data-template="reconnected"] .rc-page > section + :not(section) {
+[data-template="reconnected"] .rc-page > p:has(> img:only-child) {
+  width: 100%;
+  max-width: none;
+  margin: 0;
+}
+
+[data-template="reconnected"] .rc-page > p:has(> img:only-child) img {
+  display: block;
+  width: 100%;
+  height: min(28rem, 70vw);
+  object-fit: cover;
+  object-position: center 40%;
+}
+
+[data-template="reconnected"] .rc-page > section + :not(section):not(:has(> img:only-child)) {
   margin-top: var(--rc-section);
 }
 
-[data-template="reconnected"] .rc-page > :not(section):last-child {
+[data-template="reconnected"] .rc-page > :not(section):last-child:not(:has(> img:only-child)) {
   margin-bottom: var(--rc-section);
 }
 
@@ -105,6 +123,10 @@
 [data-template="reconnected"] .rc-page > p,
 [data-template="reconnected"] .rc-page > ul {
   margin-bottom: 1rem;
+}
+
+[data-template="reconnected"] .rc-page > p:has(> img:only-child) {
+  margin-bottom: 0;
 }
 
 [data-template="reconnected"] .rc-page > ul {
@@ -141,17 +163,17 @@
 }
 
 [data-template="reconnected"] .rc-h1 {
-  font-size: clamp(2.3rem, 1.6rem + 3vw, 4rem);
-  font-weight: 450;
-  line-height: 1.06;
+  font-size: clamp(2.4rem, 4vw, 3.6rem);
+  font-weight: 500;
+  line-height: 1.12;
   color: var(--color-primary);
-  margin-bottom: 1.25rem;
+  margin-bottom: 1.2rem;
 }
 
 [data-template="reconnected"] .rc-h2 {
-  font-size: clamp(1.75rem, 1.35rem + 1.6vw, 2.6rem);
-  font-weight: 450;
-  line-height: 1.15;
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.2;
   color: var(--color-primary);
   margin-bottom: 1.25rem;
 }
@@ -175,9 +197,10 @@
 }
 
 [data-template="reconnected"] .rc-eyebrow {
-  font-size: 0.8rem;
-  font-weight: 700;
-  letter-spacing: 0.14em;
+  font-family: var(--font-sans);
+  font-size: 0.75rem;
+  font-weight: 400;
+  letter-spacing: 0.16em;
   text-transform: uppercase;
   color: var(--rc-accent-text);
   margin-bottom: 1.25rem;
@@ -259,24 +282,23 @@
   align-items: center;
   justify-content: center;
   gap: 0.5rem;
-  min-height: 3rem;
-  padding: 0.75rem 1.5rem;
-  border-radius: 999px;
-  border: 1.5px solid var(--color-primary);
+  min-height: 0;
+  padding: 0.85rem 1.1rem;
+  border-radius: 0;
+  border: 1px solid var(--color-primary);
   background: var(--color-primary);
   color: var(--color-on-primary);
-  font-weight: 650;
-  font-size: 0.98rem;
+  font-family: var(--font-sans);
+  font-weight: 400;
+  font-size: 1.05rem;
   line-height: 1.2;
   text-align: center;
   text-decoration: none;
-  transition: background 0.2s ease, color 0.2s ease, transform 0.2s ease, border-color 0.2s ease;
 }
 
 [data-template="reconnected"] .rc-button:hover {
   background: var(--color-primary-hover);
   border-color: var(--color-primary-hover);
-  transform: translateY(-1px);
 }
 
 [data-template="reconnected"] .rc-button--ghost {
@@ -290,9 +312,8 @@
 }
 
 [data-template="reconnected"] .rc-button--small {
-  min-height: 2.5rem;
-  padding: 0.5rem 1.1rem;
-  font-size: 0.9rem;
+  padding: 0.45rem 0.8rem;
+  font-size: 0.92rem;
 }
 
 [data-template="reconnected"] .rc-actions--dark .rc-button {
@@ -341,7 +362,7 @@
   z-index: 50;
   background: color-mix(in srgb, var(--color-bg) 88%, transparent);
   backdrop-filter: saturate(1.4) blur(12px);
-  border-bottom: 1px solid color-mix(in srgb, var(--color-border) 70%, transparent);
+  border-bottom: 1px solid var(--rc-accent);
 }
 
 [data-template="reconnected"] .rc-header__inner {
@@ -362,18 +383,18 @@
 
 [data-template="reconnected"] .rc-brand__name {
   font-family: var(--font-heading);
-  font-size: 1.4rem;
-  font-weight: 550;
+  font-size: 1.35rem;
+  font-weight: 500;
   letter-spacing: -0.01em;
 }
 
 [data-template="reconnected"] .rc-brand__accent {
-  color: var(--rc-accent-text);
-  font-style: italic;
-  font-weight: 400;
+  color: var(--rc-accent);
+  font-weight: 500;
 }
 
 [data-template="reconnected"] .rc-brand__sub {
+  display: none;
   font-size: 0.72rem;
   font-weight: 650;
   letter-spacing: 0.12em;
@@ -384,19 +405,22 @@
 [data-template="reconnected"] .rc-nav {
   display: flex;
   align-items: center;
-  gap: 1.5rem;
+  gap: 1.4rem;
+  font-family: var(--font-sans);
+  font-size: 0.92rem;
+  font-weight: 400;
 }
 
 [data-template="reconnected"] .rc-nav__links {
   display: flex;
   align-items: center;
-  gap: 1.35rem;
+  gap: 1.4rem;
 }
 
 [data-template="reconnected"] .rc-nav__link {
   position: relative;
-  font-size: 0.95rem;
-  font-weight: 550;
+  font-size: inherit;
+  font-weight: 400;
   color: var(--color-text);
   text-decoration: none;
   white-space: nowrap;
@@ -434,13 +458,15 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 2.5rem;
+  width: auto;
   height: 2.5rem;
-  border-radius: 999px;
-  border: 1.5px solid var(--color-border);
-  font-size: 0.8rem;
-  font-weight: 750;
-  letter-spacing: 0.06em;
+  padding-inline: 0.7rem;
+  border-radius: 0;
+  border: 1px solid var(--color-primary);
+  font-family: var(--font-sans);
+  font-size: 0.92rem;
+  font-weight: 400;
+  letter-spacing: 0;
   color: var(--color-primary);
   text-decoration: none;
   transition: border-color 0.2s ease, background 0.2s ease;
@@ -456,8 +482,8 @@
   position: relative;
   width: 2.75rem;
   height: 2.75rem;
-  border-radius: 999px;
-  border: 1.5px solid var(--color-border);
+  border-radius: 0;
+  border: 1px solid var(--color-primary);
   background: var(--color-bg-elevated);
   color: var(--color-primary);
 }
@@ -535,12 +561,8 @@
 /* ------------------------------------------------------------------ */
 
 [data-template="reconnected"] .rc-hero {
-  position: relative;
-  overflow: hidden;
-  padding-block: clamp(3rem, 7vw, 5.5rem);
-  background:
-    radial-gradient(60rem 30rem at 85% -10%, color-mix(in srgb, var(--rc-accent) 16%, transparent), transparent 70%),
-    radial-gradient(40rem 26rem at -10% 110%, color-mix(in srgb, var(--color-primary) 10%, transparent), transparent 70%);
+  padding-block: clamp(4rem, 8vw, 6.5rem) clamp(3.5rem, 7vw, 5.5rem);
+  background: var(--color-bg);
 }
 
 [data-template="reconnected"] .rc-hero__inner {
@@ -559,9 +581,8 @@
 
 [data-template="reconnected"] .rc-hero__subtitle {
   font-family: var(--font-heading);
-  font-size: clamp(1.25rem, 1.05rem + 0.8vw, 1.6rem);
-  font-style: italic;
-  font-weight: 350;
+  font-size: 1.45rem;
+  font-weight: 500;
   line-height: 1.35;
   color: var(--color-text);
   margin-bottom: 1.25rem;
@@ -569,7 +590,7 @@
 }
 
 [data-template="reconnected"] .rc-hero__body {
-  font-size: 1.1rem;
+  font-size: 1.05rem;
   color: var(--color-text-muted);
   max-width: 40rem;
 }
@@ -578,16 +599,6 @@
   position: relative;
   justify-self: center;
   width: min(100%, 26rem);
-}
-
-[data-template="reconnected"] .rc-hero__halo {
-  position: absolute;
-  inset: auto -1.5rem -1.5rem auto;
-  width: 60%;
-  aspect-ratio: 1;
-  border-radius: 999px;
-  border: 1.5px solid color-mix(in srgb, var(--rc-accent) 70%, transparent);
-  z-index: -1;
 }
 
 @media (max-width: 860px) {
@@ -612,19 +623,11 @@
   object-fit: cover;
 }
 
-[data-template="reconnected"] .rc-figure--arch {
-  aspect-ratio: 4 / 5;
-  overflow: hidden;
-  border-radius: 999px 999px var(--rc-radius) var(--rc-radius);
-  box-shadow: var(--rc-shadow);
-  background: var(--color-bg-alt);
-}
-
+[data-template="reconnected"] .rc-figure--square,
+[data-template="reconnected"] .rc-figure--arch,
 [data-template="reconnected"] .rc-figure--soft {
-  aspect-ratio: 4 / 3;
+  aspect-ratio: 1;
   overflow: hidden;
-  border-radius: var(--rc-radius);
-  box-shadow: var(--rc-shadow);
   background: var(--color-bg-alt);
 }
 
@@ -634,35 +637,14 @@
 
 [data-template="reconnected"] .rc-checklist__grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(16.5rem, 1fr));
-  gap: 1rem;
-  margin-top: 2.5rem;
+  gap: 1.4rem;
+  max-width: 46rem;
+  margin-top: 0.5rem;
 }
 
 [data-template="reconnected"] .rc-checklist__item {
-  display: flex;
-  gap: 0.9rem;
-  align-items: flex-start;
-  padding: 1.35rem 1.4rem;
-  border-radius: var(--rc-radius);
-  background: var(--color-bg-elevated);
-  box-shadow: var(--rc-shadow);
-}
-
-[data-template="reconnected"] .rc-checklist__icon {
-  flex: none;
-  display: grid;
-  place-items: center;
-  width: 2.25rem;
-  height: 2.25rem;
-  border-radius: 999px;
-  background: color-mix(in srgb, var(--rc-accent) 18%, transparent);
-  color: var(--rc-accent-text);
-}
-
-[data-template="reconnected"] .rc-checklist__icon svg {
-  width: 1.15rem;
-  height: 1.15rem;
+  padding-left: 1.4rem;
+  border-left: 1px solid var(--rc-accent);
 }
 
 /* ------------------------------------------------------------------ */
@@ -693,13 +675,9 @@
   width: min(100%, 30rem);
 }
 
-[data-template="reconnected"] .rc-split__media .rc-figure--arch {
-  width: min(100%, 23rem);
+[data-template="reconnected"] .rc-split__media .rc-figure--square {
+  width: min(100%, 26rem);
   margin-inline: auto;
-}
-
-[data-template="reconnected"] .rc-split + .rc-split {
-  padding-top: 0;
 }
 
 @media (max-width: 860px) {
@@ -720,17 +698,12 @@
 [data-template="reconnected"] .rc-facts__grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr));
-  gap: 1px;
+  gap: 1.5rem 2rem;
   margin-top: 2rem;
-  border-radius: var(--rc-radius);
-  overflow: hidden;
-  background: var(--color-border);
-  border: 1px solid var(--color-border);
 }
 
 [data-template="reconnected"] .rc-facts__item {
-  padding: 1.5rem 1.5rem 1.6rem;
-  background: var(--color-bg-elevated);
+  padding: 0;
 }
 
 [data-template="reconnected"] .rc-facts__label {
@@ -865,14 +838,13 @@
   background: var(--color-primary);
   border-color: var(--color-primary);
   color: var(--color-on-primary);
-  box-shadow: var(--rc-shadow);
-  transform: translateY(-0.5rem);
 }
 
 [data-template="reconnected"] .rc-tier__name {
-  font-size: 0.8rem;
-  font-weight: 750;
-  letter-spacing: 0.14em;
+  font-family: var(--font-sans);
+  font-size: 0.75rem;
+  font-weight: 400;
+  letter-spacing: 0.16em;
   text-transform: uppercase;
   color: var(--rc-accent-text);
 }
@@ -910,12 +882,6 @@
   margin-bottom: 0;
 }
 
-@media (max-width: 760px) {
-  [data-template="reconnected"] .rc-tier--featured {
-    transform: none;
-  }
-}
-
 /* ------------------------------------------------------------------ */
 /* Timeline                                                            */
 /* ------------------------------------------------------------------ */
@@ -950,7 +916,7 @@
 }
 
 [data-template="reconnected"] .rc-timeline__date {
-  font-weight: 750;
+  font-weight: 500;
   font-variant-numeric: tabular-nums;
   color: var(--color-primary);
 }
@@ -1031,43 +997,38 @@
 }
 
 [data-template="reconnected"] .rc-testimonials__grid {
-  columns: 2 22rem;
-  column-gap: 1.25rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem 4rem;
   margin-top: 2.5rem;
 }
 
 [data-template="reconnected"] .rc-quote {
-  position: relative;
-  break-inside: avoid;
-  margin-bottom: 1.25rem;
-  padding: 2rem 1.9rem 1.6rem;
-  border-radius: var(--rc-radius);
-  background: color-mix(in srgb, var(--rc-deep-text) 7%, transparent);
-  border: 1px solid color-mix(in srgb, var(--rc-deep-text) 12%, transparent);
+  margin: 0;
 }
 
 [data-template="reconnected"] .rc-quote__mark {
-  position: absolute;
-  top: 0.4rem;
-  left: 1.3rem;
-  font-family: var(--font-heading);
-  font-size: 3.5rem;
-  line-height: 1;
-  color: var(--rc-accent);
+  display: none;
 }
 
 [data-template="reconnected"] .rc-quote__text {
   font-family: var(--font-heading);
-  font-size: 1.08rem;
-  font-weight: 350;
-  line-height: 1.6;
-  margin-top: 0.75rem;
+  font-size: 1.15rem;
+  font-weight: 400;
+  line-height: 1.45;
+}
+
+@media (max-width: 760px) {
+  [data-template="reconnected"] .rc-testimonials__grid {
+    grid-template-columns: 1fr;
+  }
 }
 
 [data-template="reconnected"] .rc-quote__name {
   margin-top: 1.1rem;
-  font-size: 0.85rem;
-  font-weight: 750;
+  font-family: var(--font-sans);
+  font-size: 0.8rem;
+  font-weight: 400;
   letter-spacing: 0.12em;
   text-transform: uppercase;
   color: var(--rc-accent);
@@ -1099,14 +1060,7 @@
 }
 
 [data-template="reconnected"] .rc-cta::before {
-  content: '';
-  position: absolute;
-  inset: 0;
-  z-index: -1;
-  background:
-    radial-gradient(40rem 20rem at 50% 120%, color-mix(in srgb, var(--rc-accent) 35%, transparent), transparent 70%),
-    var(--rc-cta-image, none) center / cover;
-  opacity: 0.9;
+  content: none;
 }
 
 [data-template="reconnected"] .rc-cta__inner {
@@ -1121,18 +1075,23 @@
   margin-bottom: 0;
 }
 
+[data-template="reconnected"] .rc-page > section.rc-block + section.rc-block {
+  border-top: 1px solid var(--color-border);
+}
+
 /* ------------------------------------------------------------------ */
 /* Footer                                                              */
 /* ------------------------------------------------------------------ */
 
 [data-template="reconnected"] .rc-footer {
-  background: #17261f;
-  color: var(--rc-deep-muted);
+  background: #ffffff;
+  color: var(--color-text-muted);
   font-size: 0.92rem;
+  border-top: 1px solid var(--rc-accent);
 }
 
 [data-template="reconnected"] .rc-footer a {
-  color: var(--rc-deep-text);
+  color: var(--color-text);
   text-decoration: none;
 }
 
@@ -1151,7 +1110,7 @@
 [data-template="reconnected"] .rc-footer__brand {
   font-family: var(--font-heading);
   font-size: 1.5rem;
-  color: var(--rc-deep-text);
+  color: var(--color-text);
   margin-bottom: 0.5rem;
 }
 
@@ -1172,21 +1131,10 @@
   gap: 0.5rem 2.5rem;
 }
 
-[data-template="reconnected"] .rc-footer .rc-lang {
-  color: var(--rc-deep-text);
-  border-color: color-mix(in srgb, var(--rc-deep-text) 30%, transparent);
-}
-
-[data-template="reconnected"] .rc-footer .rc-lang:hover {
-  background: transparent;
-  border-color: var(--rc-deep-text);
-  text-decoration: none;
-}
-
 [data-template="reconnected"] .rc-footer__bottom {
   grid-column: 1 / -1;
   padding-top: 1.75rem;
-  border-top: 1px solid color-mix(in srgb, var(--rc-deep-text) 14%, transparent);
+  border-top: 1px solid var(--color-border);
 }
 
 [data-template="reconnected"] .rc-footer__safety {
