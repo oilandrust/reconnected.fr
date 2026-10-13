@@ -21,8 +21,8 @@ Le site re-connected.fr est édité par :
 
 - **Olivier Rouiller, Entrepreneur individuel (EI)**, exerçant sous le nom commercial « (Re)Connected »
 - Activité : psychopraticien, accompagnement psychocorporel
-- Adresse professionnelle : 59 rue de Ponthieu, 75008 Paris (domiciliation)
-- SIREN / SIRET : 109 297 226 / 109 297 226 00010
+- Adresse professionnelle : 12 rue des Poilus, 67800 Bischheim
+- SIREN / SIRET : 109 297 226 / 109 297 226 00028
 - Immatriculation : Registre national des entreprises (RNE)
 - TVA : *à compléter*
 - E-mail : o.rouiller@gmail.com
