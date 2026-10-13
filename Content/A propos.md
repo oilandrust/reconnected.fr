@@ -32,9 +32,9 @@ En dehors des séances, je suis passionné de mouvement, de danse et de pratique
 :::
 
 ::: timeline
-## Formation
+## Formation principales
 
-- **En cours** : Licence de psychologie, Université de Strasbourg
+- **2024-2026** : Licence de psychologie, Université de Strasbourg
 - **2024–2025** : Hakomi Professional Training, niveau 2, Hakomi Institute of California
 - **2023–2024** : Hakomi Professional Training, niveau 1, Hakomi Institute of California
 - **2022** : Somatic Attachment Therapy Certificate, Embody Lab
@@ -43,12 +43,12 @@ En dehors des séances, je suis passionné de mouvement, de danse et de pratique
 :::
 
 ::: timeline
-## Autres formations
+## Autres formations courtes
 
 - **2025** : Introduction au Somatic Experiencing, restauration physiologique de la désorganisation traumatique (Michel Schittecatte)
-- **2025** : The Brilliant Lab, pratiques somatiques et relationnelles informées par le trauma (Rita Bozi)
+- **2025** : The Brilliant Lab, thérapie somatique et relationnelle assistée par psychédéliques (Rita Bozi)
 - **2025** : Embodied Intimacy, aborder la sexualité dans la thérapie Hakomi (Maci Daye)
-- **2025** : Authentic Relating, niveau 1 (ART International)
+- **2024-2025** : Authentic Relating, niveaux 1 et 2 (ART International)
 - **2023** : Shame and Self-Loathing in the Treatment of Trauma (Janina Fisher, PhD)
 :::
 

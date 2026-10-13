@@ -9,12 +9,12 @@ schema: service
 :::
 
 ::: hero
-Olivier Rouiller · Psychopraticien
+Olivier Rouiller · Psychopraticien formé à la méthode Hakomi
 # Thérapie psychocorporelle et relationnelle à Strasbourg et en ligne
 
 ## Vivez plus de connexion et d'intimité
 
-Je propose une thérapie somatique et relationnelle, qui permet de recalibrer en douceur votre système nerveux pour plus de sécurité dans le lien.
+Je propose une thérapie somatique et relationnelle, qui permet de recalibrer en douceur votre système nerveux pour plus de sécurité dans le lien et dans vos projets.
 
 ![[olivier-rouiller.webp]]
 
