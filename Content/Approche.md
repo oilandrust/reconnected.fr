@@ -8,11 +8,11 @@ description: Pleine conscience, corps et relation : découvrez l'approche Hakomi
 :::
 
 ::: hero
-Approche
+# Hakomi: une approche psycho-corporelle pour la thérapie de l'attachement
 
-# Une approche psychocorporelle inspirée de la méthode Hakomi
+La thérapie somatique de l'attachement permet d'apporter de la curiosité aux patterns d'attachement et de les changer progressivement et en douceur pour plus de sécurité dans le lien:
 
-Nos expériences, en particulier les plus anciennes et les plus relationnelles, sont inscrites dans le corps : dans une respiration qui se bloque, une épaule qui se crispe, un élan qui s'arrête, une émotion qui monte sans prévenir. Ces schémas forment nos stratégies et notre style d'attachement. La thérapie somatique de l'attachement permet d'apporter de la curiosité à ces patterns et de les changer progressivement pour plus de sécurité dans le lien.
+Nos styles d'attachement et nos patterns relationnels sont appris dès le plus jeune âge et sont inscrits dans notre corps et notre système nerveux. Un attachement anxieux peut par exemple être associé à des patterns d'agrippement ; un attachement évitant peut être associé à une dessensibilisation aux sensations. La méthode Hakomi permet d'étudier ces patterns avec bienveillance et d'apporter des expériences qui permettent de les assouplir.
 :::
 
 ::: cards
@@ -20,10 +20,10 @@ Nos expériences, en particulier les plus anciennes et les plus relationnelles, 
 
 Hakomi est une approche psychocorporelle développée par Ron Kurtz à partir des années 1970. Elle s'appuie sur quelques principes simples :
 
-- **La pleine conscience** : on ralentit et on observe ce qui se passe à l'intérieur, au moment présent.
-- **La non-violence** : on ne force rien. Ce qui protège en vous est respecté, pas combattu.
-- **L'organicité** : vous portez en vous une direction de croissance, et mon rôle est de la soutenir.
-- **L'unité corps-esprit** : pensées, émotions, sensations et mémoire forment un tout.
+- **La pleine conscience** : on ralentit et on observe ce qui se passe à l'intérieur, au moment présent
+- **La non-violence** : on approche les parts vulnérables et les défenses avec respect et on les soutient plutôt que de les forcer à changer
+- **L'organicité** : on fait confiance au système nerveux et à ce qui fait surface pendant la thérapie
+- **L'unité corps-esprit** : on approche la personne comme un tout ; pensées, émotions, sensations et mouvement sont interconnectés
 
 Plutôt que de seulement *parler de* votre vie, nous étudions ensemble, avec douceur, *comment* votre expérience s'organise ici et maintenant. C'est souvent ainsi que des croyances profondes (« je dois me débrouiller seul·e », « je ne compte pas ») deviennent visibles, et qu'une expérience nouvelle devient possible.
 :::
