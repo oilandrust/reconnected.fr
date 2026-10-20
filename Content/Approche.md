@@ -3,7 +3,7 @@ title: Approche
 ---
 
 ::: seo
-title: Approche psychocorporelle et relationnelle inspirée de Hakomi – Strasbourg
+title: Thérapie somatique et de l'attachement inspirée de Hakomi – Strasbourg
 description: Pleine conscience, corps et relation : découvrez l'approche Hakomi, le Focusing et le travail sur l'attachement, et le déroulement d'une séance.
 :::
 
@@ -12,7 +12,7 @@ Approche
 
 # Une approche psychocorporelle inspirée de la méthode Hakomi
 
-Nous ne sommes pas seulement des têtes qui pensent. Nos expériences, en particulier les plus anciennes et les plus relationnelles, se sont inscrites dans le corps : dans une respiration qui se bloque, une épaule qui se crispe, un élan qui s'arrête, une émotion qui monte sans prévenir. Mon travail consiste à accueillir ces signaux avec curiosité, plutôt qu'à les contourner.
+Nos expériences, en particulier les plus anciennes et les plus relationnelles, sont inscrites dans le corps : dans une respiration qui se bloque, une épaule qui se crispe, un élan qui s'arrête, une émotion qui monte sans prévenir. Ces schémas forment nos stratégies et notre style d'attachement. La thérapie somatique de l'attachement permet d'apporter de la curiosité à ces patterns et de les changer progressivement pour plus de sécurité dans le lien.
 :::
 
 ::: cards
@@ -34,8 +34,8 @@ Plutôt que de seulement *parler de* votre vie, nous étudions ensemble, avec do
 ## Mes autres sources d'inspiration
 
 - **Le Focusing** : écouter le « sens ressenti » corporel d'une situation.
-- **Les approches de l'attachement** : comprendre comment nos premiers liens façonnent notre manière d'aimer, de faire confiance et de nous protéger.
-- **Les approches du trauma** : prendre soin de la régulation du système nerveux, avancer par petites étapes, rester dans une zone tolérable.
+- **La thérapie de l'attachement** : comprendre comment nos premiers liens façonnent notre manière d'aimer, de faire confiance et de nous protéger.
+- **Les thérapies du psycho-trauma** : prendre soin de la régulation du système nerveux, avancer par petites étapes, rester dans une zone tolérable.
 - **Les pratiques relationnelles** (Authentic Relating, Circling) : la présence à soi et à l'autre dans l'instant.
 :::
 

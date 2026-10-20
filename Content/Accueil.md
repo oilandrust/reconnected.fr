@@ -4,17 +4,17 @@ title: Accueil
 
 ::: seo
 title: Psychopraticien à Strasbourg et en ligne – Olivier Rouiller
-description: Accompagnement psychocorporel inspiré de la méthode Hakomi, en visio depuis Strasbourg. Séances d'1 h, tarif solidaire 40–89 €. Appel découverte gratuit.
+description: Thérapie de l'attachement, méthode Hakomi, en visio depuis Strasbourg. Séances d'1 h, tarif solidaire 40–89 €. Appel découverte gratuit.
 schema: service
 :::
 
 ::: hero
 Olivier Rouiller · Psychopraticien formé à la méthode Hakomi
-# Thérapie psychocorporelle et relationnelle à Strasbourg et en ligne
+# Thérapie somatique et de l'attachement à Strasbourg et en ligne
 
 ## Vivez plus de connexion et d'intimité
 
-Je propose une thérapie somatique et relationnelle, qui permet de recalibrer en douceur votre système nerveux pour plus de sécurité dans le lien et dans vos projets.
+Je propose une thérapie somatique et de l'attachement, qui permet de recalibrer en douceur votre système nerveux pour plus de sécurité dans le lien et dans vos projets.
 
 ![[olivier-rouiller.webp]]
 
@@ -27,11 +27,10 @@ Je propose une thérapie somatique et relationnelle, qui permet de recalibrer en
 ::: checklist
 ## Vous vous reconnaissez peut-être…
 
-- Les mêmes schémas se répètent dans vos relations : vous vous effacez, vous vous suradaptez, ou vous vous fermez dès que ça devient proche.
-- Vous vivez avec une tension de fond, de l'anxiété, une difficulté à vous poser ou à vous détendre.
-- Il vous est difficile de dire non, de poser vos limites ou d'exprimer ce que vous ressentez vraiment.
-- Une voix intérieure critique, de la honte ou le sentiment de « ne pas être assez » prennent beaucoup de place.
-- Des expériences passées douloureuses pèsent encore sur votre présent.
+- Difficultés relationnelles, anxiété
+- Les mêmes schémas se répètent dans vos relations : vous vous effacez, vous vous suradaptez, ou vous vous fermez dès que ça devient proche
+- Il vous est difficile de dire non, de poser vos limites ou d'exprimer vos besoins
+- Une voix intérieure critique, de la honte ou le sentiment de « ne pas être assez »
 :::
 
 ::: split
@@ -51,7 +50,7 @@ Chaque parcours est unique et, mais voici ce que les personnes que j'accompagne 
 ::: split
 ## Comment je travaille
 
-Le travail s'appuie sur la pleine conscience et la curiosité bienveillante. Nous prenons le temps d'installer un climat de confiance et de sécurité. Puis nous explorons ensemble, à votre rythme, ce qui se présente : une sensation, une émotion, un souvenir, une croyance. C'est souvent là que des parts de vous plus vulnérables peuvent enfin être accueillies.
+Le travail s'appuie sur la pleine conscience et la curiosité bienveillante. Nous prenons le temps d'installer un climat de confiance et de sécurité. Puis nous explorons ensemble, à votre rythme, ce qui se présente : une sensation, une émotion, un souvenir, une croyance. C'est souvent là que des parts de vous plus vulnérables peuvent enfin être accueillies. Cela permet de changer petit à petit vos patterns d'attachement.
 
 Ma pratique est inspirée de la méthode Hakomi et nourrie par le Focusing, les approches de l'attachement et les thérapies du psycho-trauma.
 
