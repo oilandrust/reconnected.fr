@@ -27,10 +27,13 @@ A free, no-commitment **20-minute** video call. You tell me what brings you, I e
 
 - **Length** · 50 minutes
 - **Format** · Online by video, or in person in Strasbourg, France
+- **Address** · 3 place de Haguenau, 67000 Strasbourg, France
 - **Languages** · English or French
 - **Time zones** · Sessions are scheduled in your local time. I am based in Central European Time.
 - **Who** · Adults, individually or as a couple
 - **Rhythm** · Usually weekly or every two weeks. We decide together, and you can stop whenever you wish.
+
+map: 3 place de Haguenau, 67000 Strasbourg, France
 :::
 
 ::: pricing

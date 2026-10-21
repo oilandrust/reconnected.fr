@@ -80,4 +80,4 @@ All content on this site (texts, photographs, visuals) belongs to Olivier Rouill
 
 This site uses **no analytics or advertising cookies** and does not itself set any cookies requiring consent.
 
-The [Contact](/en/contact/) page embeds the **Calendly** booking calendar, which loads a third-party script. Calendly may set its own cookies and, where required, ask for your consent, under its own cookie policy. The contact form sends your message to **Formspree** only when you submit it; no Formspree script or cookie is loaded on the site.
+The [Contact](/en/contact/) page embeds the **Calendly** booking calendar, which loads a third-party script. Calendly may set its own cookies and, where required, ask for your consent, under its own cookie policy. The [Sessions & fees](/en/sessions-and-fees/) page embeds a **Google Maps** map, which may set its own cookies under Google's policy. The contact form sends your message to **Formspree** only when you submit it; no Formspree script or cookie is loaded on the site.

@@ -28,6 +28,12 @@ navigation: []
 contact:
   email: "o.rouiller@gmail.com"
   phone: "+33662913203"
+  # Practice address, used in the ProfessionalService JSON-LD.
+  address:
+    street: "3, place de Haguenau"
+    postalCode: "67000"
+    city: "Strasbourg"
+    country: "FR"
   calendly: "https://calendly.com/o-rouiller"
   form: "https://formspree.io/f/xjygnblk"
   booking:
@@ -43,7 +49,7 @@ languages:
     name: "Français"
     locale: "fr_FR"
     jobTitle: "Psychopraticien"
-    tagline: "Olivier Rouiller, psychopraticien (EI)"
+    tagline: "Olivier Rouiller, psychopraticien"
     menu:
       - "Approche": "/approche/"
       - "Séances & tarifs": "/seances-et-tarifs/"

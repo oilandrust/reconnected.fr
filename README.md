@@ -42,7 +42,7 @@ Write `::: name` … `:::` in a page. Inside a block, `## Heading` is the sectio
 | `hero` | Optional eyebrow line, `# H1`, optional `## subtitle`, text, optional image, buttons. |
 | `split` | Text beside an image. Put the image before the heading to place it on the left. |
 | `checklist` | Title, intro, `- item` list (leaf cards). |
-| `facts` | `- **Label** · value` list. |
+| `facts` | `- **Label** · value` list. An optional `map: address` line adds a Google Maps embed on the right. |
 | `cards` | `### Card` sections, or `- **Lead** · text` items. |
 | `steps` | Numbered `1.` list. |
 | `pricing` | `### Tier`, a `**40 €** / séance` line, description. Text after `---` is a note under the tiers. |

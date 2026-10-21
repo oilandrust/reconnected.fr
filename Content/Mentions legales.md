@@ -80,4 +80,4 @@ L'ensemble des contenus de ce site (textes, photographies, visuels) est la propr
 
 Ce site n'utilise **aucun cookie de mesure d'audience ni de publicité** et ne dépose lui-même aucun cookie soumis à consentement.
 
-La page [Contact](/contact/) intègre l'agenda de réservation **Calendly**, qui charge un script tiers. Calendly peut déposer ses propres cookies et, le cas échéant, vous demander votre consentement, selon sa politique de cookies. Le formulaire de contact transmet votre message à **Formspree** au moment de l'envoi uniquement ; aucun script ni cookie Formspree n'est chargé sur le site.
+La page [Contact](/contact/) intègre l'agenda de réservation **Calendly**, qui charge un script tiers. Calendly peut déposer ses propres cookies et, le cas échéant, vous demander votre consentement, selon sa politique de cookies. La page [Séances & tarifs](/seances-et-tarifs/) intègre une carte **Google Maps**, qui peut déposer ses propres cookies selon la politique de Google. Le formulaire de contact transmet votre message à **Formspree** au moment de l'envoi uniquement ; aucun script ni cookie Formspree n'est chargé sur le site.

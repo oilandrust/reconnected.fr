@@ -9,8 +9,6 @@ schema: service
 :::
 
 ::: hero
-Séances & tarifs
-
 # Séances et tarifs
 
 ## Le premier pas : un appel découverte gratuit
@@ -27,8 +25,10 @@ Un échange de **20 minutes**, en visio, gratuit et sans engagement. Vous me dit
 
 - **Durée** · 50 minutes
 - **Format** · En présentiel à Strasbourg ou en visio
+- **Adresse** · 3, place de Haguenau, 67000 Strasbourg
 - **Langues** · Français ou anglais
-- **Pour qui** · Adultes, en individuel ou en couple
+
+map: 3 place de Haguenau, 67000 Strasbourg, France
 :::
 
 ::: pricing

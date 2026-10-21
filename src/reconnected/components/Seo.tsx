@@ -51,6 +51,7 @@ export default function Seo({ content }: MarkdownBlockProps) {
 
   if (meta.schema === 'service') {
     const fr = lang === 'fr';
+    const { address, phone } = config.contact;
     const session = fr ? 'Séance individuelle 50 min' : 'Individual session, 50 minutes';
     graph.push({
       '@type': 'ProfessionalService',
@@ -59,6 +60,18 @@ export default function Seo({ content }: MarkdownBlockProps) {
       url: `${siteUrl}/`,
       provider: { '@id': `${siteUrl}/#person` },
       description,
+      ...(phone ? { telephone: phone } : {}),
+      ...(address
+        ? {
+            address: {
+              '@type': 'PostalAddress',
+              streetAddress: address.street,
+              postalCode: address.postalCode,
+              addressLocality: address.city,
+              addressCountry: address.country,
+            },
+          }
+        : {}),
       areaServed: [
         { '@type': 'City', name: 'Strasbourg' },
         { '@type': 'Place', name: fr ? 'En ligne' : 'Online' },

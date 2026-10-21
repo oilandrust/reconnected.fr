@@ -8,8 +8,6 @@ description: Formé à la méthode Hakomi (Hakomi Institute of California), étu
 :::
 
 ::: hero
-À propos
-
 # À propos d'Olivier Rouiller, psychopraticien
 
 ## Bonjour, je m'appelle Olivier.

@@ -720,6 +720,31 @@
   font-size: 0.98rem;
 }
 
+[data-template="reconnected"] .rc-facts--map .rc-facts__inner {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: 2.5rem 4rem;
+  align-items: start;
+}
+
+[data-template="reconnected"] .rc-facts--map .rc-facts__grid {
+  grid-template-columns: repeat(auto-fit, minmax(11rem, 1fr));
+}
+
+[data-template="reconnected"] .rc-facts__map iframe {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1 / 1;
+  border: 1px solid var(--color-border);
+}
+
+@media (max-width: 860px) {
+  [data-template="reconnected"] .rc-facts--map .rc-facts__inner {
+    grid-template-columns: 1fr;
+  }
+}
+
 /* ------------------------------------------------------------------ */
 /* Cards                                                               */
 /* ------------------------------------------------------------------ */

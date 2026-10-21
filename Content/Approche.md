@@ -61,5 +61,5 @@ Pour les adultes, seuls ou en couple, qui souhaitent mieux se comprendre et vivr
 
 Un appel de 20 minutes, gratuit et sans engagement, pour voir si cette approche vous correspond.
 
-[Réserver un appel découverte](#booking)
+[Réserver un appel découverte ou prendre un rendez-vous](#booking)
 :::

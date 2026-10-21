@@ -29,6 +29,7 @@ export interface SiteConfig extends ContentConfig {
   contact: {
     email: string;
     phone: string;
+    address?: { street: string; postalCode: string; city: string; country: string };
     calendly?: string;
     form?: string;
     booking: Record<Lang, string>;
