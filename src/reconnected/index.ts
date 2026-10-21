@@ -14,6 +14,8 @@ import Faq from './components/Faq';
 import Testimonials from './components/Testimonials';
 import Notice from './components/Notice';
 import Cta from './components/Cta';
+import Calendly from './components/Calendly';
+import Contact from './components/Contact';
 
 export const reconnectedTemplate: TemplateModule = {
   id: 'reconnected',
@@ -38,5 +40,7 @@ export const reconnectedTemplate: TemplateModule = {
     testimonials: Testimonials,
     notice: Notice,
     cta: Cta,
+    calendly: Calendly,
+    contact: Contact,
   },
 };

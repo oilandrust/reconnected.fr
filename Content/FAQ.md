@@ -33,7 +33,7 @@ Oui. Le travail en couple s'appuie sur les mêmes principes : ralentir, observer
 Cela dépend de ce qui vous amène. Certaines personnes viennent pour quelques séances autour d'une question précise ; d'autres pour un travail plus long. Nous faisons régulièrement le point, et vous restez libre d'arrêter à tout moment.
 
 ### Comment choisir mon tarif ?
-Choisissez librement, sans justificatif, parmi les trois tarifs (40 €, 65 € ou 89 € la séance d'1 heure), selon vos ressources. Voir la page [Séances & tarifs](/seances-et-tarifs/).
+Choisissez librement, sans justificatif, parmi les trois tarifs (40 €, 65 € ou 89 € la séance de 50 minutes), selon vos ressources. Voir la page [Séances & tarifs](/seances-et-tarifs/).
 
 ### Les séances sont-elles remboursées ?
 Pas par l'Assurance Maladie. Certaines mutuelles remboursent une partie des séances : renseignez-vous auprès de la vôtre. Je vous fournis une facture sur demande.

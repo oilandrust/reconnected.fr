@@ -4,30 +4,20 @@ title: Contact
 
 ::: seo
 title: Book a Session – Olivier Rouiller, Somatic Practitioner
-description: Book a free 20-minute discovery call online, or send me an email. Sessions by video in English or French.
+description: Book an in-person session in Strasbourg online, or reach me by email, phone or the contact form for a free discovery call or a video session.
 :::
 
-::: hero
-Contact
+::: calendly
+## Book online
 
-# Book a session
+Book a 50-minute in-person session in Strasbourg. For a discovery call or a video session, please use the contact form below.
 :::
 
-::: cards
-### Book a free discovery call
-20 minutes, free and without commitment. Pick a time directly in my calendar; you'll receive an email confirmation with the video link.
+::: contact
+## Contact me
 
-[See available times](#booking)
+- **By email** · [o.rouiller@gmail.com](#email)
+- **By phone** · [+33 6 62 91 32 03](#phone)
 
-### Prefer to write?
-Email me at **o.rouiller@gmail.com**. I usually reply within 48 hours. No need to describe your situation in detail by email: we can talk about it in person.
-
-[Email me](#email)
-
-### Where?
-Online, wherever you are. In-person sessions in Strasbourg, France, are coming soon.
-:::
-
-::: notice
-My work is not medical care and does not replace medical, psychiatric or psychological treatment. In an emergency, call **112** (or your local emergency number). In France, the national suicide prevention line **3114** is free and available 24/7; outside France, please contact your local crisis line.
+Feel free to call or write to me for a first contact: we can arrange a free video call or book a session.
 :::

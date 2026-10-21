@@ -28,6 +28,9 @@ export interface SiteConfig extends ContentConfig {
   brand: string;
   contact: {
     email: string;
+    phone: string;
+    calendly?: string;
+    form?: string;
     booking: Record<Lang, string>;
     workshops: Record<Lang, string>;
   };
@@ -67,16 +70,17 @@ export function alternatesOf(config: SiteConfig, pathname: string): Partial<Reco
   return pair ?? {};
 }
 
-/** `#booking`, `#email`, `#workshops` → real URLs for the given language. */
+/** `#booking`, `#email`, `#phone`, `#workshops` → real URLs for the given language. */
 export function resolveSpecialHrefs(markdown: string, config: SiteConfig, lang: Lang): string {
   const { contact } = config;
   const targets: Record<string, string> = {
     '#booking': contact.booking[lang],
     '#email': `mailto:${contact.email}`,
+    '#phone': `tel:${contact.phone}`,
     '#workshops': contact.workshops[lang],
   };
   return stripComments(markdown).replace(
-    /\]\((#booking|#email|#workshops)\)/g,
+    /\]\((#booking|#email|#phone|#workshops)\)/g,
     (_, key: string) => `](${targets[key]})`,
   );
 }

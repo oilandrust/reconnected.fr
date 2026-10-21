@@ -33,7 +33,7 @@ Yes. Couple work rests on the same principles: slowing down, noticing what happe
 It depends on what brings you. Some people come for a few sessions around a specific question; others for longer work. We check in regularly, and you can stop at any time.
 
 ### Which rate should I choose?
-Choose freely, without justification, between €40, €65 and €89 per 1-hour session, according to your means. See [Sessions & fees](/en/sessions-and-fees/).
+Choose freely, without justification, between €40, €65 and €89 per 50-minute session, according to your means. See [Sessions & fees](/en/sessions-and-fees/).
 
 ### Is it covered by insurance?
 Usually not, since I am not a licensed health professional. Please check with your insurer. I can provide an invoice.

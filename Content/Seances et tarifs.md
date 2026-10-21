@@ -4,7 +4,7 @@ title: Séances & tarifs
 
 ::: seo
 title: Séances et tarifs – Psychopraticien Strasbourg & visio
-description: Séances individuelles d'1 h en visio, en français ou en anglais. Tarif solidaire au choix : 40, 65 ou 89 €. Premier appel gratuit de 20 min.
+description: Séances individuelles de 50 min en présentiel à Strasbourg ou en visio, en français ou en anglais. Tarif solidaire au choix : 40, 65 ou 89 €. Premier appel gratuit de 20 min.
 schema: service
 :::
 
@@ -25,8 +25,8 @@ Un échange de **20 minutes**, en visio, gratuit et sans engagement. Vous me dit
 ::: facts
 ## Les séances
 
-- **Durée** · 1 heure
-- **Format** · En visio. Présentiel à Strasbourg : bientôt
+- **Durée** · 50 minutes
+- **Format** · En présentiel à Strasbourg ou en visio
 - **Langues** · Français ou anglais
 - **Pour qui** · Adultes, en individuel ou en couple
 :::
@@ -34,7 +34,7 @@ Un échange de **20 minutes**, en visio, gratuit et sans engagement. Vous me dit
 ::: pricing
 ## Un tarif solidaire
 
-Je souhaite que ce travail reste accessible. Je propose donc trois tarifs pour la même séance d'1 heure. **Vous choisissez librement, sans justificatif**, celui qui correspond à votre situation.
+Je souhaite que ce travail reste accessible. Je propose donc trois tarifs pour la même séance de 50 minutes. **Vous choisissez librement, sans justificatif**, celui qui correspond à votre situation.
 
 ### Solidaire
 **40 €** / séance

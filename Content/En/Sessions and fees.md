@@ -4,7 +4,7 @@ title: Sessions & fees
 
 ::: seo
 title: Sessions & Fees – Online Somatic Therapy (€40–89)
-description: 1-hour online sessions in English or French on a sliding scale: €40, €65 or €89. Start with a free 20-minute discovery call.
+description: 50-minute sessions online or in person in Strasbourg, in English or French on a sliding scale: €40, €65 or €89. Start with a free 20-minute discovery call.
 schema: service
 :::
 
@@ -25,8 +25,8 @@ A free, no-commitment **20-minute** video call. You tell me what brings you, I e
 ::: facts
 ## Sessions
 
-- **Length** · 1 hour
-- **Format** · Online by video. In person in Strasbourg, France: coming soon
+- **Length** · 50 minutes
+- **Format** · Online by video, or in person in Strasbourg, France
 - **Languages** · English or French
 - **Time zones** · Sessions are scheduled in your local time. I am based in Central European Time.
 - **Who** · Adults, individually or as a couple
@@ -36,7 +36,7 @@ A free, no-commitment **20-minute** video call. You tell me what brings you, I e
 ::: pricing
 ## Sliding scale
 
-I want this work to stay accessible, so the same 1-hour session is offered at three rates. **Choose freely, no questions asked.**
+I want this work to stay accessible, so the same 50-minute session is offered at three rates. **Choose freely, no questions asked.**
 
 ### Supported
 **€40** / session

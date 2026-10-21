@@ -28,7 +28,7 @@ Content/
 
 - The URL is the slugified file name. To hide a page, add `published: false` to its frontmatter (Workshops/Ateliers are hidden this way; also uncomment their menu entry in `config.yaml` when publishing).
 - When adding a page, add its FR↔EN pair under `routes` in `config.yaml` so the language switch and hreflang tags point to the right page.
-- Special link targets resolved from `config.yaml`: `#booking` (discovery call, per language), `#email`, `#workshops`.
+- Special link targets resolved from `config.yaml`: `#booking` (contact/booking page, per language), `#email`, `#phone`, `#workshops`.
 - `<!-- TODO: … -->` comments are never rendered; they mark information still to confirm.
 - Images: files starting with `deco-` are decorative (empty alt). Other images get the alt text "Olivier Rouiller, {jobTitle}".
 
@@ -51,5 +51,7 @@ Write `::: name` … `:::` in a page. Inside a block, `## Heading` is the sectio
 | `testimonials` | `### Name` followed by a `> quote`. |
 | `notice` | Highlighted note. |
 | `cta` | Dark closing band with a title, text and buttons. |
+| `calendly` | Title and text above the Calendly page set in `contact.calendly`. |
+| `contact` | `- **Label** · [link](#email)` contact methods beside a message form posting to `contact.form` (mailto fallback when empty). |
 
 Each block has a parser in `src/reconnected/lib/parse.ts` and a component in `src/reconnected/components/`. Register new ones in `src/reconnected/index.ts`.

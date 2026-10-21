@@ -51,7 +51,7 @@ export default function Seo({ content }: MarkdownBlockProps) {
 
   if (meta.schema === 'service') {
     const fr = lang === 'fr';
-    const session = fr ? 'Séance individuelle 1 h' : 'Individual session, 1 hour';
+    const session = fr ? 'Séance individuelle 50 min' : 'Individual session, 50 minutes';
     graph.push({
       '@type': 'ProfessionalService',
       '@id': `${siteUrl}/#service`,

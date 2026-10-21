@@ -4,32 +4,20 @@ title: Contact
 
 ::: seo
 title: Prendre rendez-vous – Olivier Rouiller, psychopraticien
-description: Réservez en ligne un appel découverte gratuit de 20 minutes, ou écrivez-moi. Séances en visio, en français ou en anglais.
+description: Réservez en ligne une séance en présentiel à Strasbourg, ou contactez-moi par e-mail, téléphone ou formulaire pour un appel découverte gratuit ou une séance en visio.
 :::
 
-::: hero
-Contact
+::: calendly
+## Prendre rendez-vous en ligne
 
-# Prendre rendez-vous
+Prenez rendez-vous pour une séance de 50 minutes en présentiel à Strasbourg. Pour un appel de découverte ou une séance en visio, veuillez utiliser le formulaire de contact plus bas.
 :::
 
-<!-- TODO: remplacer le lien mailto par l'agenda Cal.com (contact.booking dans config.yaml) ; téléphone affiché ou non. -->
+::: contact
+## Me contacter
 
-::: cards
-### Réserver un appel découverte
-20 minutes, gratuit et sans engagement. Choisissez directement un créneau ; vous recevrez une confirmation par e-mail avec le lien de la visio.
+- **Par e-mail** · [o.rouiller@gmail.com](#email)
+- **Par téléphone** · [06 62 91 32 03](#phone)
 
-[Voir les créneaux disponibles](#booking)
-
-### Vous préférez écrire ?
-Écrivez-moi à **o.rouiller@gmail.com**. Je réponds en général sous 48 h. Inutile de détailler votre situation par écrit : nous en parlerons de vive voix.
-
-[M'écrire](#email)
-
-### Où ?
-En visio, où que vous soyez. Les séances en présentiel à Strasbourg arrivent bientôt.
-:::
-
-::: notice
-Mon accompagnement n'est pas un soin médical et ne remplace pas un suivi médical, psychiatrique ou psychologique. En cas d'urgence, appelez le **15** ou le **112**. Si vous avez des pensées suicidaires, le **3114** (numéro national de prévention du suicide) répond 24 h/24, gratuitement.
+N'hésitez pas à m'appeler ou m'écrire pour un premier contact, nous pouvons convenir d'un appel en visio gratuit ou prendre un rendez-vous.
 :::

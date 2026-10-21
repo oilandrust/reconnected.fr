@@ -24,13 +24,15 @@ author:
 # Menus are defined per language below (`languages.*.menu`).
 navigation: []
 
-# Content links `[Text](#booking)` and `[Text](#email)` resolve to these.
-# TODO: replace the mailto fallbacks with the Cal.com event links once created.
+# Content links `[Text](#booking)`, `[Text](#email)` and `[Text](#phone)` resolve to these.
 contact:
   email: "o.rouiller@gmail.com"
+  phone: "+33662913203"
+  calendly: "https://calendly.com/o-rouiller"
+  form: "https://formspree.io/f/xjygnblk"
   booking:
-    fr: "mailto:o.rouiller@gmail.com?subject=Appel%20d%C3%A9couverte%20%2820%20min%29"
-    en: "mailto:o.rouiller@gmail.com?subject=Discovery%20call%20%2820%20min%29"
+    fr: "/contact/"
+    en: "/en/contact/"
   workshops:
     fr: "mailto:o.rouiller@gmail.com?subject=Ateliers%20Strasbourg"
     en: "mailto:o.rouiller@gmail.com?subject=Workshops%20Strasbourg"
@@ -48,14 +50,14 @@ languages:
       - "À propos": "/a-propos/"
       # - "Ateliers": "/ateliers/"   # publish Ateliers.md first
       - "FAQ": "/faq/"
-      - "Articles": "https://www.olivier-psy.fr/fr/articles/"
     cta:
-      label: "Réserver un appel"
+      label: "Prendre Rendez-vous"
       href: "#booking"
     switchLabel: "This page in English"
     footer:
       safety: "Mon accompagnement n'est pas un soin médical et ne remplace pas un suivi médical, psychiatrique ou psychologique. En cas d'urgence, appelez le 15 ou le 112. Si vous avez des pensées suicidaires, le 3114 (numéro national de prévention du suicide) répond 24 h/24, gratuitement."
       links:
+        - "Contact": "/contact/"
         - "Mentions légales": "/mentions-legales/"
         - "Confidentialité": "/mentions-legales/#protection-des-donnees-personnelles"
   en:
@@ -72,12 +74,13 @@ languages:
       - "FAQ": "/en/faq/"
       - "Articles": "https://www.olivier-psy.fr/en/articles/"
     cta:
-      label: "Book a call"
+      label: "Book a session"
       href: "#booking"
     switchLabel: "Cette page en français"
     footer:
       safety: "My work is not medical care and does not replace medical, psychiatric or psychological treatment. In an emergency, call 112 (or your local emergency number). In France, the national suicide prevention line 3114 is free and available 24/7; outside France, please contact your local crisis line."
       links:
+        - "Contact": "/en/contact/"
         - "Legal notice": "/en/legal-notice/"
         - "Privacy": "/en/legal-notice/#data-protection"
 

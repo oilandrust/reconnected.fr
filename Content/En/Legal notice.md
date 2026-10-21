@@ -53,7 +53,8 @@ All content on this site (texts, photographs, visuals) belongs to Olivier Rouill
 **Data collected:**
 
 - when you email me: your email address and the content of your message;
-- when you book an appointment: name, email address, preferred language, chosen time slot and, where applicable, payment data (processed directly by the payment provider: I have no access to your bank details);
+- when you use the contact form: name, email address, phone number (optional) and the content of your message;
+- when you book an appointment: name, email address, chosen time slot, the information you enter in the booking form and, where applicable, payment data (processed directly by the payment provider: I have no access to your bank details);
 - if you sign up for workshop updates: your email address.
 
 **Purposes and legal bases:**
@@ -62,7 +63,7 @@ All content on this site (texts, photographs, visuals) belongs to Olivier Rouill
 - invoicing: legal obligation;
 - workshop updates: your consent, which you can withdraw at any time.
 
-**Recipients and processors:** Cal.com, Inc. (booking), Stripe (payment), Google (email), GitHub (hosting). Some are based in the United States; transfers are covered by the European Commission's standard contractual clauses and/or the EU–US Data Privacy Framework.
+**Recipients and processors:** Calendly LLC (booking), Formspree, Inc. (contact form), Stripe (payment), Google (email), GitHub (hosting). Some are based in the United States; transfers are covered by the European Commission's standard contractual clauses and/or the EU–US Data Privacy Framework.
 
 **Retention periods:**
 
@@ -77,4 +78,6 @@ All content on this site (texts, photographs, visuals) belongs to Olivier Rouill
 
 ## Cookies
 
-This site uses **no analytics or advertising cookies**. It sets no cookies requiring consent and loads no third-party fonts or scripts. Booking links take you to the booking provider's website, which applies its own cookie policy.
+This site uses **no analytics or advertising cookies** and does not itself set any cookies requiring consent.
+
+The [Contact](/en/contact/) page embeds the **Calendly** booking calendar, which loads a third-party script. Calendly may set its own cookies and, where required, ask for your consent, under its own cookie policy. The contact form sends your message to **Formspree** only when you submit it; no Formspree script or cookie is loaded on the site.

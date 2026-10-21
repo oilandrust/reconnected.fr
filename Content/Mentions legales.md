@@ -53,7 +53,8 @@ L'ensemble des contenus de ce site (textes, photographies, visuels) est la propr
 **Données collectées :**
 
 - lorsque vous m'écrivez par e-mail : votre adresse e-mail et le contenu de votre message ;
-- lorsque vous réservez un rendez-vous : nom, adresse e-mail, langue souhaitée, créneau choisi et, le cas échéant, les données de paiement (traitées directement par le prestataire de paiement : je n'ai pas accès à vos données bancaires) ;
+- lorsque vous utilisez le formulaire de contact : nom, adresse e-mail, téléphone (facultatif) et le contenu de votre message ;
+- lorsque vous réservez un rendez-vous : nom, adresse e-mail, créneau choisi, les informations que vous renseignez dans le formulaire de réservation et, le cas échéant, les données de paiement (traitées directement par le prestataire de paiement : je n'ai pas accès à vos données bancaires) ;
 - si vous vous inscrivez à la liste d'information des ateliers : votre adresse e-mail.
 
 **Finalités et bases légales :**
@@ -62,7 +63,7 @@ L'ensemble des contenus de ce site (textes, photographies, visuels) est la propr
 - facturation : obligation légale ;
 - information sur les ateliers : votre consentement, retirable à tout moment.
 
-**Destinataires et sous-traitants :** Cal.com, Inc. (prise de rendez-vous), Stripe (paiement), Google (messagerie), GitHub (hébergement). Certains sont établis aux États-Unis ; les transferts sont encadrés par les clauses contractuelles types de la Commission européenne et/ou le Data Privacy Framework UE–États-Unis.
+**Destinataires et sous-traitants :** Calendly LLC (prise de rendez-vous), Formspree, Inc. (formulaire de contact), Stripe (paiement), Google (messagerie), GitHub (hébergement). Certains sont établis aux États-Unis ; les transferts sont encadrés par les clauses contractuelles types de la Commission européenne et/ou le Data Privacy Framework UE–États-Unis.
 
 **Durées de conservation :**
 
@@ -77,4 +78,6 @@ L'ensemble des contenus de ce site (textes, photographies, visuels) est la propr
 
 ## Cookies
 
-Ce site n'utilise **aucun cookie de mesure d'audience ni de publicité**. Il ne dépose pas de cookies soumis à consentement et ne charge aucune police ni script tiers. Les liens de réservation vous dirigent vers le site du prestataire de prise de rendez-vous, qui applique sa propre politique de cookies.
+Ce site n'utilise **aucun cookie de mesure d'audience ni de publicité** et ne dépose lui-même aucun cookie soumis à consentement.
+
+La page [Contact](/contact/) intègre l'agenda de réservation **Calendly**, qui charge un script tiers. Calendly peut déposer ses propres cookies et, le cas échéant, vous demander votre consentement, selon sa politique de cookies. Le formulaire de contact transmet votre message à **Formspree** au moment de l'envoi uniquement ; aucun script ni cookie Formspree n'est chargé sur le site.
