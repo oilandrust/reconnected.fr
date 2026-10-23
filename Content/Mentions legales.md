@@ -53,7 +53,7 @@ L'ensemble des contenus de ce site (textes, photographies, visuels) est la propr
 **Données collectées :**
 
 - lorsque vous m'écrivez par e-mail : votre adresse e-mail et le contenu de votre message ;
-- lorsque vous utilisez le formulaire de contact : nom, adresse e-mail, téléphone (facultatif) et le contenu de votre message ;
+- lorsque vous utilisez le formulaire de contact : nom, adresse e-mail et le contenu de votre message ;
 - lorsque vous réservez un rendez-vous : nom, adresse e-mail, créneau choisi, les informations que vous renseignez dans le formulaire de réservation et, le cas échéant, les données de paiement (traitées directement par le prestataire de paiement : je n'ai pas accès à vos données bancaires) ;
 - si vous vous inscrivez à la liste d'information des ateliers : votre adresse e-mail.
 

@@ -11,26 +11,22 @@ const LABELS = {
     formTitle: 'Écrire un message',
     name: 'Nom',
     email: 'E-mail',
-    phone: 'Téléphone (facultatif)',
     message: 'Message',
     submit: 'Envoyer',
     sending: 'Envoi…',
     sent: 'Merci, votre message est bien envoyé. Je vous réponds en général sous 48 h.',
     error: "Le message n'a pas pu être envoyé. Écrivez-moi directement par e-mail.",
-    privacy: 'Vos informations servent uniquement à vous répondre.',
     subject: 'Message depuis re-connected.fr',
   },
   en: {
     formTitle: 'Send a message',
     name: 'Name',
     email: 'Email',
-    phone: 'Phone (optional)',
     message: 'Message',
     submit: 'Send',
     sending: 'Sending…',
     sent: 'Thank you, your message has been sent. I usually reply within 48 hours.',
     error: "Your message couldn't be sent. Please email me directly.",
-    privacy: 'Your details are only used to reply to you.',
     subject: 'Message from re-connected.fr',
   },
 } satisfies Record<Lang, Record<string, string>>;
@@ -51,7 +47,7 @@ function ContactForm() {
     if (data.get('_gotcha')) return;
 
     if (!endpoint) {
-      const body = [data.get('message'), '', data.get('name'), data.get('email'), data.get('phone')]
+      const body = [data.get('message'), '', data.get('name'), data.get('email')]
         .filter((line) => line !== null)
         .join('\n')
         .trim();
@@ -100,15 +96,10 @@ function ContactForm() {
         </label>
       </div>
       <label className="rc-form__field">
-        <span>{labels.phone}</span>
-        <input name="phone" type="tel" autoComplete="tel" />
-      </label>
-      <label className="rc-form__field">
         <span>{labels.message}</span>
         <textarea name="message" rows={6} required />
       </label>
       <input name="_gotcha" type="text" tabIndex={-1} autoComplete="off" className="rc-form__trap" aria-hidden="true" />
-      <p className="rc-form__privacy">{labels.privacy}</p>
       {status === 'error' ? (
         <p className="rc-form__status rc-form__status--error" role="alert">
           {labels.error}

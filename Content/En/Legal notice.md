@@ -53,7 +53,7 @@ All content on this site (texts, photographs, visuals) belongs to Olivier Rouill
 **Data collected:**
 
 - when you email me: your email address and the content of your message;
-- when you use the contact form: name, email address, phone number (optional) and the content of your message;
+- when you use the contact form: name, email address and the content of your message;
 - when you book an appointment: name, email address, chosen time slot, the information you enter in the booking form and, where applicable, payment data (processed directly by the payment provider: I have no access to your bank details);
 - if you sign up for workshop updates: your email address.
 

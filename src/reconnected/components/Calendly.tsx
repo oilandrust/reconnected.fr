@@ -14,15 +14,9 @@ declare global {
   }
 }
 
-const LABELS = {
-  fr: {
-    open: "Ouvrir l'agenda dans un nouvel onglet",
-    pending: 'La réservation en ligne arrive bientôt. En attendant, écrivez-moi ou appelez-moi.',
-  },
-  en: {
-    open: 'Open the calendar in a new tab',
-    pending: 'Online booking is coming soon. In the meantime, email or call me.',
-  },
+const PENDING = {
+  fr: 'La réservation en ligne arrive bientôt. En attendant, écrivez-moi ou appelez-moi.',
+  en: 'Online booking is coming soon. In the meantime, email or call me.',
 };
 
 let widgetScript: Promise<void> | null = null;
@@ -48,7 +42,6 @@ export default function Calendly({ content }: MarkdownBlockProps) {
   const { title, body, actions } = parseSection(content);
   const url = config.contact.calendly?.trim();
   const frame = useRef<HTMLDivElement>(null);
-  const labels = LABELS[lang];
 
   useEffect(() => {
     const parentElement = frame.current;
@@ -76,16 +69,9 @@ export default function Calendly({ content }: MarkdownBlockProps) {
         ) : null}
         <Md content={body} className="rc-lead" />
         {url ? (
-          <>
-            <div ref={frame} className="rc-calendly__frame" />
-            <p className="rc-calendly__fallback">
-              <a href={url} target="_blank" rel="noopener noreferrer">
-                {labels.open}
-              </a>
-            </p>
-          </>
+          <div ref={frame} className="rc-calendly__frame" />
         ) : (
-          <p className="rc-calendly__pending">{labels.pending}</p>
+          <p className="rc-calendly__pending">{PENDING[lang]}</p>
         )}
         <Actions actions={actions} />
       </div>

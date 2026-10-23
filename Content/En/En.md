@@ -12,7 +12,7 @@ schema: service
 ::: hero
 Olivier Rouiller · Somatic practitioner · Online, based in Strasbourg, France
 
-# Hakomi-informed somatic therapy online
+# Mindfulness-based somatic therapy online
 
 ## (Re)connect with yourself, your body and the people in your life.
 
@@ -41,7 +41,7 @@ I offer body-centred, mindfulness-based sessions informed by the Hakomi method. 
 ::: split
 ![[deco-lever-de-soleil.webp]]
 
-## What can change
+## What you are longing for
 
 Every path is different and I don't promise outcomes. But this is what people I work with often describe over time:
 
@@ -97,7 +97,7 @@ My practice is informed by the Hakomi method and draws on Focusing, attachment-b
 
 ## About me
 
-I'm Olivier Rouiller. After ten years as a software engineer in video games and fifteen years living around Europe (Germany, Sweden), I now dedicate myself to this work. I study psychology at the University of Strasbourg and I am training in the Hakomi method with the Hakomi Institute of California. I am in regular supervision.
+I'm Olivier Rouiller. After ten years as a software engineer in video games and fifteen years living around Europe (Germany, Sweden), I now dedicate myself to this work. I have a Bachelor's in psychology from the University of Strasbourg, and I am training in the Hakomi method with the Hakomi Institute of California.
 
 [More about me](/en/about/)
 :::
