@@ -7,6 +7,10 @@ site:
 
 brand: "(Re)Connected"
 
+# Cookieless pageviews (EU-hosted). Empty / omit to disable.
+analytics:
+  goatcounter: "https://overlii.goatcounter.com/count"
+
 template: reconnected
 home: "Accueil.md"
 # The parent folder (~/Projects) is an Obsidian vault: keep asset lookup inside Content/.

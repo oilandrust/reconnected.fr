@@ -26,6 +26,11 @@ export interface LanguageConfig {
 /** Site-specific keys of `Content/config.yaml` (passed through by sync). */
 export interface SiteConfig extends ContentConfig {
   brand: string;
+  analytics?: {
+    /** GoatCounter count endpoint, e.g. https://example.goatcounter.com/count */
+    goatcounter?: string;
+    google?: string;
+  };
   contact: {
     email: string;
     phone: string;
