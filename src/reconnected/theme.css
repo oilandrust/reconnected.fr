@@ -631,6 +631,12 @@
   background: var(--color-bg-alt);
 }
 
+[data-template="reconnected"] .rc-figure--portrait {
+  aspect-ratio: 3 / 4;
+  overflow: hidden;
+  background: var(--color-bg-alt);
+}
+
 /* ------------------------------------------------------------------ */
 /* Checklist                                                           */
 /* ------------------------------------------------------------------ */
@@ -1197,9 +1203,28 @@
   scroll-margin-top: 5.5rem;
 }
 
+[data-template="reconnected"] .rc-calendly__layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1.15fr) minmax(0, 0.85fr);
+  gap: clamp(1.75rem, 4vw, 3.5rem);
+  align-items: start;
+}
+
+[data-template="reconnected"] .rc-calendly__media {
+  justify-self: end;
+  position: sticky;
+  top: 5.5rem;
+  width: min(100%, 22rem);
+}
+
+[data-template="reconnected"] .rc-calendly__media .rc-figure {
+  margin: 0;
+  width: 100%;
+}
+
 [data-template="reconnected"] .rc-booking {
   list-style: none;
-  margin: 2.5rem 0 0;
+  margin: 2rem 0 0;
   padding: 0;
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -1207,12 +1232,18 @@
   align-items: stretch;
 }
 
+[data-template="reconnected"] .rc-calendly--media .rc-booking {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+}
+
 [data-template="reconnected"] .rc-booking__option {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   gap: 0.35rem;
-  padding: 1.75rem 1.6rem;
+  margin: 0;
+  padding: 1.35rem 1.25rem;
   background: var(--color-bg-elevated);
   border: 1px solid var(--color-border);
   border-top: 3px solid color-mix(in srgb, var(--color-border) 70%, var(--rc-accent));
@@ -1233,23 +1264,24 @@
 }
 
 [data-template="reconnected"] .rc-booking__title {
-  margin: 0.15rem 0 0;
   font-family: var(--font-heading);
-  font-size: 1.35rem;
+  font-size: 1.2rem;
   font-weight: 500;
-  line-height: 1.25;
+  line-height: 1.3;
   color: var(--color-primary);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.18em;
+}
+
+[data-template="reconnected"] .rc-booking__title:hover {
+  color: var(--rc-accent);
 }
 
 [data-template="reconnected"] .rc-booking__detail {
   margin: 0;
   color: var(--color-text-muted);
-  font-size: 0.98rem;
-}
-
-[data-template="reconnected"] .rc-booking__cta {
-  margin-top: auto;
-  padding-top: 1.35rem;
+  font-size: 0.95rem;
 }
 
 [data-template="reconnected"] .rc-booking__error {
@@ -1265,7 +1297,19 @@
 }
 
 @media (max-width: 860px) {
-  [data-template="reconnected"] .rc-booking {
+  [data-template="reconnected"] .rc-calendly__layout {
+    grid-template-columns: 1fr;
+  }
+
+  [data-template="reconnected"] .rc-calendly__media {
+    order: -1;
+    position: static;
+    justify-self: center;
+    width: min(100%, 18rem);
+  }
+
+  [data-template="reconnected"] .rc-booking,
+  [data-template="reconnected"] .rc-calendly--media .rc-booking {
     grid-template-columns: 1fr;
   }
 }

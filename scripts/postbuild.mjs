@@ -3,7 +3,6 @@
  * Post-process the static export in out/ (runs after `lefolio build`):
  *
  * - one <title> per page (warns otherwise)
- * - favicon.ico for browsers that request it directly
  * - redirect stubs for old WordPress URLs (`redirects` in config.yaml)
  * - sitemap.xml with hreflang alternates (`routes` in config.yaml), robots.txt, CNAME
  */
@@ -49,13 +48,6 @@ for (const file of htmlFiles(OUT)) {
   if (titles !== 1 && isPage) {
     warn(`${route} has ${titles} <title> tags (missing \`::: seo\` block?)`);
   }
-}
-
-/* Icons ----------------------------------------------------------------- */
-
-const icon = path.join(ROOT, 'Content/Assets/favicon-32.png');
-if (fs.existsSync(icon)) {
-  fs.copyFileSync(icon, path.join(OUT, 'favicon.ico'));
 }
 
 /* Redirect stubs ---------------------------------------------------------- */

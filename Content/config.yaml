@@ -15,7 +15,6 @@ template: reconnected
 home: "Accueil.md"
 # The parent folder (~/Projects) is an Obsidian vault: keep asset lookup inside Content/.
 vault: .
-favicon: "Assets/favicon.svg"
 
 author:
   name: "Olivier Rouiller"

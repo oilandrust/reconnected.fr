@@ -4,7 +4,7 @@ import { useCallback, useState } from 'react';
 import type { MarkdownBlockProps } from '@lefolio/engine/template';
 import { parseSection } from '../lib/parse';
 import { useSite, type BookingEvent, type Lang } from '../lib/site';
-import { Actions, InlineText, Md, SectionTitle } from './ui';
+import { Actions, Figure, InlineText, Md, SectionTitle } from './ui';
 
 const EMBED_SRC = 'https://app.cal.com/embed/embed.js';
 
@@ -111,7 +111,7 @@ function prefersPageBooking() {
  */
 export default function Calendly({ content }: MarkdownBlockProps) {
   const { config, lang } = useSite();
-  const { title, body, actions } = parseSection(content);
+  const { title, body, image, actions } = parseSection(content);
   const events = config.contact.events ?? [];
   const labels = COPY[lang];
   const [error, setError] = useState<string | null>(null);
@@ -144,45 +144,61 @@ export default function Calendly({ content }: MarkdownBlockProps) {
     [labels.openError],
   );
 
-  return (
-    <section className="rc-block rc-calendly" id="booking">
-      <div className="rc-container">
-        {title ? (
-          <SectionTitle centered>
-            <InlineText text={title} />
-          </SectionTitle>
-        ) : null}
-        <Md content={body} className="rc-lead rc-lead--center" />
+  const booking =
+    events.length > 0 ? (
+      <ul className="rc-booking">
+        {events.map((event) => {
+          const item = eventCopy(event, lang);
+          return (
+            <li
+              key={event.href}
+              className={event.featured ? 'rc-booking__option is-featured' : 'rc-booking__option'}
+            >
+              <p className="rc-booking__duration">{item.duration}</p>
+              <a
+                href={event.href}
+                className="rc-booking__title"
+                rel="noopener noreferrer"
+                onClick={(click) => {
+                  click.preventDefault();
+                  openEvent(event.href);
+                }}
+              >
+                {item.title}
+              </a>
+              {item.detail ? <p className="rc-booking__detail">{item.detail}</p> : null}
+            </li>
+          );
+        })}
+      </ul>
+    ) : (
+      <p className="rc-calendly__pending">{labels.pending}</p>
+    );
 
-        {events.length > 0 ? (
-          <ul className="rc-booking">
-            {events.map((event) => {
-              const copy = eventCopy(event, lang);
-              return (
-                <li
-                  key={event.href}
-                  className={event.featured ? 'rc-booking__option is-featured' : 'rc-booking__option'}
-                >
-                  <p className="rc-booking__duration">{copy.duration}</p>
-                  <h3 className="rc-booking__title">{copy.title}</h3>
-                  {copy.detail ? <p className="rc-booking__detail">{copy.detail}</p> : null}
-                  <a
-                    href={event.href}
-                    className="rc-button rc-button--ghost rc-booking__cta"
-                    rel="noopener noreferrer"
-                    onClick={(click) => {
-                      click.preventDefault();
-                      openEvent(event.href);
-                    }}
-                  >
-                    {copy.cta}
-                  </a>
-                </li>
-              );
-            })}
-          </ul>
+  const main = (
+    <div className="rc-calendly__main">
+      {title ? (
+        <SectionTitle centered={!image}>
+          <InlineText text={title} />
+        </SectionTitle>
+      ) : null}
+      <Md content={body} className={image ? 'rc-lead' : 'rc-lead rc-lead--center'} />
+      {booking}
+    </div>
+  );
+
+  return (
+    <section className={image ? 'rc-block rc-calendly rc-calendly--media' : 'rc-block rc-calendly'} id="booking">
+      <div className="rc-container">
+        {image ? (
+          <div className="rc-calendly__layout">
+            {main}
+            <div className="rc-calendly__media">
+              <Figure image={image} className="rc-figure--portrait" />
+            </div>
+          </div>
         ) : (
-          <p className="rc-calendly__pending">{labels.pending}</p>
+          main
         )}
 
         {error ? (

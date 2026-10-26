@@ -11,6 +11,8 @@ description: Book an in-person session in Strasbourg online, or reach me by emai
 ## Book a session
 
 Choose the kind of appointment you need. Cal.com opens the matching calendar. If this is our first contact, start with the free call.
+
+![[olivier-rouiller-parc.webp]]
 :::
 
 ::: contact

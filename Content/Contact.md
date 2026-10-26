@@ -11,6 +11,8 @@ description: Réservez en ligne une séance en présentiel à Strasbourg, ou con
 ## Prendre rendez-vous
 
 Choisissez le type de rendez-vous qui vous convient. Je propose un premier contact gratuit, mais vous pouvez aussi prendre un rendez-vous pour une séance directement.
+
+![[olivier-rouiller-parc.webp]]
 :::
 
 ::: contact
