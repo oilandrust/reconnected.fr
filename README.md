@@ -1,5 +1,7 @@
 # re-connected.fr
 
+Old Copy: https://github.com/oilandrust/reconnected.fr/commit/6ed5e892e85229946e338a9b5611291993f1261f#diff-fedfcbe86e9b96f71ade6134e2be61ebb43628c3df727a3edc50ade74663c831
+
 Bilingual (FR at `/`, EN at `/en/`) static site for Olivier Rouiller, psychopraticien. Built with `@lefolio/engine`: the copy lives in Markdown in `Content/`, the look lives in a site-local template in `src/reconnected/`.
 
 ## Commands
@@ -51,7 +53,7 @@ Write `::: name` … `:::` in a page. Inside a block, `## Heading` is the sectio
 | `testimonials` | `### Name` followed by a `> quote`. |
 | `notice` | Highlighted note. |
 | `cta` | Dark closing band with a title, text and buttons. |
-| `calendly` | Title and text above the Calendly page set in `contact.calendly`. |
+| `calendly` | Title and text above the booking chooser (`contact.events` in config). |
 | `contact` | `- **Label** · [link](#email)` contact methods beside a message form posting to `contact.form` (mailto fallback when empty). |
 
 Each block has a parser in `src/reconnected/lib/parse.ts` and a component in `src/reconnected/components/`. Register new ones in `src/reconnected/index.ts`.

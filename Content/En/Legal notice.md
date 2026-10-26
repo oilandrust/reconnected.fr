@@ -63,7 +63,7 @@ All content on this site (texts, photographs, visuals) belongs to Olivier Rouill
 - invoicing: legal obligation;
 - workshop updates: your consent, which you can withdraw at any time.
 
-**Recipients and processors:** Calendly LLC (booking), Formspree, Inc. (contact form), Stripe (payment), Google (email), GitHub (hosting). Some are based in the United States; transfers are covered by the European Commission's standard contractual clauses and/or the EU–US Data Privacy Framework.
+**Recipients and processors:** Cal.com, Inc. (booking), Formspree, Inc. (contact form), Stripe (payment), Google (email), GitHub (hosting). Some are based in the United States; transfers are covered by the European Commission's standard contractual clauses and/or the EU–US Data Privacy Framework.
 
 **Retention periods:**
 
@@ -82,4 +82,4 @@ This site uses **no analytics or advertising cookies** and does not itself set a
 
 Page views are measured with **GoatCounter** (EU-hosted), without cookies or advertising tracking: only aggregated page-view statistics are collected. See [goatcounter.com](https://www.goatcounter.com/).
 
-The [Contact](/en/contact/) page embeds the **Calendly** booking calendar, which loads a third-party script. Calendly may set its own cookies and, where required, ask for your consent, under its own cookie policy. The [Sessions & fees](/en/sessions-and-fees/) page embeds a **Google Maps** map, which may set its own cookies under Google's policy. The contact form sends your message to **Formspree** only when you submit it; no Formspree script or cookie is loaded on the site.
+On the [Contact](/en/contact/) page, choosing an appointment type loads the **Cal.com** booking calendar (a third-party script). Cal.com may set its own cookies and, where required, ask for your consent, under its own cookie policy. The [Sessions & fees](/en/sessions-and-fees/) page embeds a **Google Maps** map, which may set its own cookies under Google's policy. The contact form sends your message to **Formspree** only when you submit it; no Formspree script or cookie is loaded on the site.

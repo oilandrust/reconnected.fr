@@ -8,9 +8,9 @@ description: Book an in-person session in Strasbourg online, or reach me by emai
 :::
 
 ::: calendly
-## Book online
+## Book a session
 
-Book a 50-minute in-person session in Strasbourg. For a discovery call or a video session, please use the contact form below.
+Choose the kind of appointment you need. Cal.com opens the matching calendar. If this is our first contact, start with the free call.
 :::
 
 ::: contact

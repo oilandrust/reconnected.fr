@@ -38,11 +38,46 @@ contact:
     postalCode: "67000"
     city: "Strasbourg"
     country: "FR"
-  calendly: "https://calendly.com/o-rouiller"
+  # Cal.com event types for the `::: calendly` booking chooser.
+  events:
+    - href: "https://cal.com/olivier-rouiller/consultation-en-visio"
+      fr:
+        title: "Consultation en visio"
+        detail: "Par Zoom"
+        duration: "50 min"
+        cta: "Choisir un créneau"
+      en:
+        title: "Online consultation"
+        detail: "Via Zoom"
+        duration: "50 min"
+        cta: "Pick a time"
+    - href: "https://cal.com/olivier-rouiller/consultation-en-cabinet"
+      fr:
+        title: "Consultation en cabinet"
+        detail: "À Strasbourg"
+        duration: "50 min"
+        cta: "Choisir un créneau"
+      en:
+        title: "In-person consultation"
+        detail: "In Strasbourg"
+        duration: "50 min"
+        cta: "Pick a time"
+    - href: "https://cal.com/olivier-rouiller/premier-contact"
+      featured: true
+      fr:
+        title: "Premier contact gratuit"
+        detail: "En visio (Zoom)"
+        duration: "20 min"
+        cta: "Réserver l’appel"
+      en:
+        title: "Free discovery call"
+        detail: "Online (Zoom)"
+        duration: "20 min"
+        cta: "Book the call"
   form: "https://formspree.io/f/xjygnblk"
   booking:
-    fr: "/contact/"
-    en: "/en/contact/"
+    fr: "/contact/#booking"
+    en: "/en/contact/#booking"
   workshops:
     fr: "mailto:o.rouiller@gmail.com?subject=Ateliers%20Strasbourg"
     en: "mailto:o.rouiller@gmail.com?subject=Workshops%20Strasbourg"
@@ -59,6 +94,7 @@ languages:
       - "Séances & tarifs": "/seances-et-tarifs/"
       - "À propos": "/a-propos/"
       # - "Ateliers": "/ateliers/"   # publish Ateliers.md first
+      - "Contact": "/contact/#contact"
       - "FAQ": "/faq/"
     cta:
       label: "Prendre Rendez-vous"
@@ -81,6 +117,7 @@ languages:
       - "Sessions & fees": "/en/sessions-and-fees/"
       - "About": "/en/about/"
       # - "Workshops": "/en/workshops/"   # publish En/Workshops.md first
+      - "Contact": "/en/contact/#contact"
       - "FAQ": "/en/faq/"
       - "Articles": "https://www.olivier-psy.fr/en/articles/"
     cta:

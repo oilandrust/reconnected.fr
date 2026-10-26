@@ -1,9 +1,10 @@
 'use client';
 
+import { stripImages } from '@lefolio/engine/parse';
 import type { MarkdownBlockProps } from '@lefolio/engine/template';
-import { parseList } from '../lib/parse';
+import { extractImage, parseList } from '../lib/parse';
 import { useSite } from '../lib/site';
-import { Actions, InlineText, Md, SectionTitle } from './ui';
+import { Actions, Figure, InlineText, Md, SectionTitle } from './ui';
 
 const MAP_LINE = /^\s*map\s*:\s*(.+)$/im;
 
@@ -26,11 +27,14 @@ function MapEmbed({ address }: { address: string }) {
 
 /**
  * `- **Label** · detail` items → grid of key facts (practical details).
- * An optional `map: address` line puts a Google Maps embed beside the facts.
+ * An optional `map: address` line or `![[image]]` puts media beside the facts.
  */
 export default function Facts({ content }: MarkdownBlockProps) {
   const address = MAP_LINE.exec(content)?.[1].trim() ?? null;
-  const { title, intro, items, outro, actions } = parseList(content.replace(MAP_LINE, ''));
+  const image = address ? null : extractImage(content);
+  const { title, intro, items, outro, actions } = parseList(
+    stripImages(content.replace(MAP_LINE, '')),
+  );
 
   const facts = (
     <div className="rc-facts__body">
@@ -55,15 +59,23 @@ export default function Facts({ content }: MarkdownBlockProps) {
         ))}
       </dl>
       <Md content={outro} className="rc-lead" />
-      <Actions actions={actions} />
+      <Actions actions={actions} primaryFirst={false} />
     </div>
   );
 
+  const media = address ? (
+    <MapEmbed address={address} />
+  ) : image ? (
+    <div className="rc-facts__media">
+      <Figure image={image} />
+    </div>
+  ) : null;
+
   return (
-    <section className={address ? 'rc-block rc-facts rc-facts--map' : 'rc-block rc-facts'}>
+    <section className={media ? 'rc-block rc-facts rc-facts--media' : 'rc-block rc-facts'}>
       <div className="rc-container rc-facts__inner">
         {facts}
-        {address ? <MapEmbed address={address} /> : null}
+        {media}
       </div>
     </section>
   );

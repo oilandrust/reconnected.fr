@@ -7,8 +7,9 @@ import { SmartLink } from '../components/ui';
 import BrandName from './BrandName';
 
 function isActive(pathname: string, href: string) {
-  if (href === '/' || href === '/en/') return pathname === href;
-  return pathname.startsWith(href);
+  const path = href.split('#')[0] || href;
+  if (path === '/' || path === '/en/') return pathname === path;
+  return pathname.startsWith(path);
 }
 
 export function LanguageSwitch({ onNavigate }: { onNavigate?: () => void }) {

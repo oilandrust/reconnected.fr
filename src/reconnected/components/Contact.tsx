@@ -132,7 +132,7 @@ export default function Contact({ content }: MarkdownBlockProps) {
   const { title, intro, items, outro } = parseList(content);
 
   return (
-    <section className="rc-block rc-contact">
+    <section className="rc-block rc-contact" id="contact">
       <div className="rc-container rc-contact__inner">
         <div className="rc-contact__methods">
           {title ? (

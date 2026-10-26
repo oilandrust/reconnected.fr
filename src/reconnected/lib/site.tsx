@@ -11,6 +11,21 @@ export const LANGS: Lang[] = ['fr', 'en'];
 
 type LabelledLinks = Array<Record<string, string>>;
 
+export interface BookingEventCopy {
+  title: string;
+  detail?: string;
+  duration: string;
+  cta: string;
+}
+
+/** One Cal.com event type offered on the booking block. */
+export interface BookingEvent {
+  href: string;
+  featured?: boolean;
+  fr: BookingEventCopy;
+  en: BookingEventCopy;
+}
+
 export interface LanguageConfig {
   label: string;
   name: string;
@@ -35,7 +50,12 @@ export interface SiteConfig extends ContentConfig {
     email: string;
     phone: string;
     address?: { street: string; postalCode: string; city: string; country: string };
+    /** @deprecated Prefer `events`. Kept so older configs still resolve. */
+    calcom?: string;
+    /** @deprecated Prefer `events`. */
     calendly?: string;
+    /** Cal.com event types shown on the booking block. */
+    events?: BookingEvent[];
     form?: string;
     booking: Record<Lang, string>;
     workshops: Record<Lang, string>;

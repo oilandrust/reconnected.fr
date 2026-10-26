@@ -63,7 +63,7 @@ L'ensemble des contenus de ce site (textes, photographies, visuels) est la propr
 - facturation : obligation légale ;
 - information sur les ateliers : votre consentement, retirable à tout moment.
 
-**Destinataires et sous-traitants :** Calendly LLC (prise de rendez-vous), Formspree, Inc. (formulaire de contact), Stripe (paiement), Google (messagerie), GitHub (hébergement). Certains sont établis aux États-Unis ; les transferts sont encadrés par les clauses contractuelles types de la Commission européenne et/ou le Data Privacy Framework UE–États-Unis.
+**Destinataires et sous-traitants :** Cal.com, Inc. (prise de rendez-vous), Formspree, Inc. (formulaire de contact), Stripe (paiement), Google (messagerie), GitHub (hébergement). Certains sont établis aux États-Unis ; les transferts sont encadrés par les clauses contractuelles types de la Commission européenne et/ou le Data Privacy Framework UE–États-Unis.
 
 **Durées de conservation :**
 
@@ -82,4 +82,4 @@ Ce site n'utilise **aucun cookie de mesure d'audience ni de publicité** et ne d
 
 La fréquentation est mesurée avec **GoatCounter** (hébergé dans l'UE), sans cookies ni suivi publicitaire : seules des statistiques agrégées de pages vues sont collectées. Voir [goatcounter.com](https://www.goatcounter.com/).
 
-La page [Contact](/contact/) intègre l'agenda de réservation **Calendly**, qui charge un script tiers. Calendly peut déposer ses propres cookies et, le cas échéant, vous demander votre consentement, selon sa politique de cookies. La page [Séances & tarifs](/seances-et-tarifs/) intègre une carte **Google Maps**, qui peut déposer ses propres cookies selon la politique de Google. Le formulaire de contact transmet votre message à **Formspree** au moment de l'envoi uniquement ; aucun script ni cookie Formspree n'est chargé sur le site.
+Sur la page [Contact](/contact/), le choix d'un type de rendez-vous charge l'agenda **Cal.com** (script tiers). Cal.com peut déposer ses propres cookies et, le cas échéant, vous demander votre consentement, selon sa politique de cookies. La page [Séances & tarifs](/seances-et-tarifs/) intègre une carte **Google Maps**, qui peut déposer ses propres cookies selon la politique de Google. Le formulaire de contact transmet votre message à **Formspree** au moment de l'envoi uniquement ; aucun script ni cookie Formspree n'est chargé sur le site.

@@ -74,6 +74,8 @@ My practice is informed by the Hakomi method and draws on Focusing, attachment-b
 - **20 minutes, free** · A discovery call first, to get to know each other
 
 [Sessions & fees](/en/sessions-and-fees/)
+
+![[cabinet-strasbourg.webp|The practice room in Strasbourg]]
 :::
 
 ::: testimonials

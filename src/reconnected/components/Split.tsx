@@ -22,7 +22,7 @@ export default function Split({ content }: MarkdownBlockProps) {
             </SectionTitle>
           ) : null}
           <Md content={body} className="rc-prose" />
-          <Actions actions={actions} />
+          <Actions actions={actions} primaryFirst={false} />
         </div>
         {image ? (
           <div className="rc-split__media">

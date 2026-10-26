@@ -53,15 +53,18 @@ export function SmartLink({
   );
 }
 
-/** First link = primary button, others = secondary (or `quiet` text links). */
+/** First link = primary button, others = secondary — unless `primaryFirst` is false. */
 export function Actions({
   actions,
   align = 'start',
   tone = 'light',
+  primaryFirst = true,
 }: {
   actions: MdLink[];
   align?: 'start' | 'center';
   tone?: 'light' | 'dark';
+  /** When false, every action is a ghost (secondary) button. */
+  primaryFirst?: boolean;
 }) {
   if (actions.length === 0) return null;
   return (
@@ -70,7 +73,7 @@ export function Actions({
         <SmartLink
           key={`${action.href}-${action.text}`}
           href={action.href}
-          className={index === 0 ? 'rc-button' : 'rc-button rc-button--ghost'}
+          className={primaryFirst && index === 0 ? 'rc-button' : 'rc-button rc-button--ghost'}
         >
           {action.text}
         </SmartLink>

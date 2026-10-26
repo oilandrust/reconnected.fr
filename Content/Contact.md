@@ -8,9 +8,9 @@ description: Réservez en ligne une séance en présentiel à Strasbourg, ou con
 :::
 
 ::: calendly
-## Prendre rendez-vous en ligne
+## Prendre rendez-vous
 
-Prenez rendez-vous pour une séance de 50 minutes en présentiel à Strasbourg. Pour un appel de découverte ou une séance en visio, veuillez utiliser le formulaire de contact plus bas.
+Choisissez le type de rendez-vous qui vous convient. Je propose un premier contact gratuit, mais vous pouvez aussi prendre un rendez-vous pour une séance directement.
 :::
 
 ::: contact
