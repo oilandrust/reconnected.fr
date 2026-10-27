@@ -28,6 +28,7 @@ Je propose une thérapie somatique et de l'attachement inspirée de la méthode 
 ## Vous vous reconnaissez peut-être…
 
 - Difficultés relationnelles, de l'anxiété
+- Vous perdez vos moyens lorsque vous parlez à quelqu'un qui vous plaît
 - Des schémas qui se répètent dans vos relations : vous vous effacez, vous vous suradaptez, ou vous vous fermez dès que ça devient proche
 - Il vous est difficile de dire non, de poser vos limites ou d'exprimer vos besoins
 - Une voix intérieure critique, de la honte ou le sentiment de « ne pas être assez »

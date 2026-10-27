@@ -4,15 +4,17 @@ title: À propos
 
 ::: seo
 title: À propos – Olivier Rouiller, psychopraticien à Strasbourg
-description: Formé à la méthode Hakomi (Hakomi Institute of California), étudiant en psychologie à Strasbourg, sous supervision régulière. Parcours et formations.
+description: Formé à la méthode Hakomi (Hakomi Institute of California). Parcours et formations.
 :::
 
 ::: hero
-# À propos d'Olivier Rouiller, psychopraticien
+# Passionné de transformation depuis 10 ans
 
-## Bonjour, je m'appelle Olivier.
+Depuis près de 10 ans, je suis passionné par la thérapie, la pleine conscience, l'embodiment, la transformation et les pratiques relationnelles. Je me suis formé à plusieurs modalités de thérapie et j'ai exploré ce qui existait en Suède ainsi qu'à l'international. Ceci m'a conduit à me former à la méthode Hakomi auprès du Hakomi Institute of California.
 
-Depuis une dizaine d'années, la pleine conscience, l'incarnation et la transformation personnelle sont au cœur de ma vie. Le fil rouge de mon parcours, c'est une question très personnelle : qu'est-ce qui fait obstacle à des relations vivantes et authentiques ? Elle m'a conduit à étudier l'attachement, le trauma complexe et la honte, puis à me former à des approches qui passent par le corps.
+Je suis né en France et j'ai vécu 15 ans à l'étranger, en Allemagne et en Suède. Cette ouverture me donne un regard multiculturel sur la manière dont l'on entre en relation.
+
+Pendant 10 ans, j'ai travaillé comme ingénieur en informatique, notamment dans le secteur du jeu vidéo. Aujourd'hui, je continue de me former à l'accompagnement ; j'ai complété une licence en psychologie à l'Université de Strasbourg en 2026 et je suis également assistant aux formations du Hakomi Institute of California.
 
 ![[olivier-rouiller-portrait.webp]]
 :::
@@ -20,13 +22,14 @@ Depuis une dizaine d'années, la pleine conscience, l'incarnation et la transfor
 ::: split
 ![[olivier-rouiller-strasbourg.webp]]
 
-## Un parcours entre plusieurs pays
+## Pourquoi proposer cette thérapie?
 
-Je suis né en France et j'ai vécu quinze ans ailleurs en Europe, notamment en Allemagne et en Suède. Cette expérience m'a appris à quel point la culture façonne nos comportements, nos manières d'être en relation et nos blessures. C'est une sensibilité que j'apporte aussi aux personnes expatriées ou qui vivent entre plusieurs langues.
+Un aspect important de mon travail personnel a été d'étudier et de guérir la manière dont on est dans notre corps en relation. J'ai par exemple eu de nombreuses fois l'expérience de me sentir déconnecté, anxieux, de ne pas pouvoir parler alors que j'étais à une fête et que quelqu'un me jetait des regards.
 
-Pendant dix ans, j'ai été ingénieur logiciel dans le jeu vidéo. Aujourd'hui, je vis à Strasbourg, où je suis étudiant en psychologie à l'Université de Strasbourg, avec le projet de devenir psychologue. En parallèle, j'exerce comme psychopraticien.
+J'ai compris plus tard que ces situations me poussaient à me figer, que ces réactions étaient apprises par mes premières expériences et qu'il était possible de les faire évoluer. Mon parcours m'a amené à rencontrer des pratiques, des coachs, des thérapeutes et à apprendre petit à petit comment une présence bienveillante peut aider un système nerveux à s'assouplir petit à petit pour ressentir plus de sécurité.
 
-En dehors des séances, je suis passionné de mouvement, de danse et de pratiques somatiques et relationnelles.
+J'ai passé plusieurs années à chercher les meilleures méthodes pour ce travail et aujourd'hui je suis confiant qu'une méthode informée par Hakomi est une voie privilégiée qui mérite d'être développée.
+
 :::
 
 ::: timeline
@@ -51,14 +54,6 @@ En dehors des séances, je suis passionné de mouvement, de danse et de pratique
 :::
 
 <!-- TODO: nom / pays du superviseur (si souhaité) ; fédération, code de déontologie, assurance RC Pro. -->
-
-::: cards
-## Cadre et éthique
-
-- **Hakomi** : je suis en formation à la méthode Hakomi et ma pratique en est inspirée.
-- **Supervision** : je travaille sous supervision régulière avec un formateur Hakomi senior, lui-même thérapeute diplômé.
-- **Titre** : j'exerce sous le titre de psychopraticien. Je ne suis ni médecin ni psychologue.
-:::
 
 ::: cta
 ## Faisons connaissance
