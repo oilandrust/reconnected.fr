@@ -14,7 +14,7 @@ About
 
 ## Hi, I'm Olivier.
 
-For about ten years, mindfulness, embodiment and personal transformation have been at the centre of my life. The thread running through my path is a very personal question: what gets in the way of real, authentic relationships? It led me to study attachment, complex trauma and shame, and to train in body-centred approaches.
+For about ten years, mindfulness, embodiment and personal transformation have been at the center of my life. The thread running through my path is a very personal question: what gets in the way of real, authentic relationships? It led me to study attachment, complex trauma and shame, and to train in body-centred approaches.
 
 ![[olivier-rouiller-portrait.webp]]
 :::

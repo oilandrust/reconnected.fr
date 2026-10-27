@@ -12,11 +12,11 @@ schema: service
 ::: hero
 Olivier Rouiller · Somatic practitioner
 
-# Mindfulness-based somatic therapy online and in-person in Strasbourg
+# Somatic and attachment therapy online and in-person in Strasbourg
 
 ## Reconnect with your authentic Self
 
-I offer body-centered, mindfulness-based therapy informed by the Hakomi method. It is gentle work that starts from what you are experiencing right now (sensations, emotions, impulses) to understand what keeps replaying inside you and in your relationships.
+I offer somatic therapy informed by the Hakomi method. It allows you to gently recalibrate your nervous system for more security and connection in your life and relationships.
 
 ![[olivier-rouiller.webp]]
 
@@ -26,8 +26,8 @@ I offer body-centered, mindfulness-based therapy informed by the Hakomi method. 
 
 ![[deco-hero-mountain.webp]]
 
-::: checklist
-## You might recognise yourself here
+::: split
+## You might recognize yourself here
 
 - The same patterns keep showing up in your relationships: you over-adapt, disappear, or shut down when things get close.
 - You understand a lot "in your head", but your body doesn't seem to follow.
@@ -36,6 +36,8 @@ I offer body-centered, mindfulness-based therapy informed by the Hakomi method. 
 - A harsh inner critic, shame or a sense of "not being enough" takes up a lot of space.
 - Painful past experiences still weigh on your present.
 - You are going through a transition (a breakup, moving abroad, a change of direction) and need a space to find yourself again.
+
+![[deco-foret-brume.webp]]
 :::
 
 ::: split
