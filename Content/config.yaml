@@ -5,7 +5,7 @@ site:
   basePath: ""
   lang: fr
 
-brand: "(Re)Connected"
+brand: "Re-Connected"
 
 # Cookieless pageviews (EU-hosted). Empty / omit to disable.
 analytics:
@@ -27,7 +27,7 @@ author:
 # Menus are defined per language below (`languages.*.menu`).
 navigation: []
 
-# Content links `[Text](#booking)`, `[Text](#email)` and `[Text](#phone)` resolve to these.
+# Content links `[Text](#booking)`, `[Text](#discovery)`, `[Text](#email)` and `[Text](#phone)` resolve to these.
 contact:
   email: "o.rouiller@gmail.com"
   phone: "+33662913203"
@@ -77,6 +77,8 @@ contact:
   booking:
     fr: "/contact/#booking"
     en: "/en/contact/#booking"
+  # Free 20‑min intro — `#discovery` CTAs open this Cal.com event (modal on desktop).
+  discovery: "https://cal.com/olivier-rouiller/premier-contact"
   workshops:
     fr: "mailto:o.rouiller@gmail.com?subject=Ateliers%20Strasbourg"
     en: "mailto:o.rouiller@gmail.com?subject=Workshops%20Strasbourg"
@@ -93,8 +95,8 @@ languages:
       - "Séances & tarifs": "/seances-et-tarifs/"
       - "À propos": "/a-propos/"
       # - "Ateliers": "/ateliers/"   # publish Ateliers.md first
+      - "Articles": "/les-therapies-somatiques/"
       - "Contact": "/contact/#contact"
-      - "FAQ": "/faq/"
     cta:
       label: "Prendre Rendez-vous"
       href: "#booking"
@@ -116,9 +118,8 @@ languages:
       - "Sessions & fees": "/en/sessions-and-fees/"
       - "About": "/en/about/"
       # - "Workshops": "/en/workshops/"   # publish En/Workshops.md first
+      - "Articles": "/en/somatic-therapies/"
       - "Contact": "/en/contact/#contact"
-      - "FAQ": "/en/faq/"
-      - "Articles": "https://www.olivier-psy.fr/en/articles/"
     cta:
       label: "Book a session"
       href: "#booking"
@@ -138,6 +139,7 @@ routes:
   - { fr: "/a-propos/", en: "/en/about/" }
   - { fr: "/ateliers/", en: "/en/workshops/" }
   - { fr: "/faq/", en: "/en/faq/" }
+  - { fr: "/les-therapies-somatiques/", en: "/en/somatic-therapies/" }
   - { fr: "/contact/", en: "/en/contact/" }
   - { fr: "/mentions-legales/", en: "/en/legal-notice/" }
 

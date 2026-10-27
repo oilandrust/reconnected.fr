@@ -15,7 +15,7 @@ schema: service
 
 Un échange de **20 minutes**, en visio, gratuit et sans engagement. Vous me dites ce qui vous amène, je vous explique comment je travaille, et nous voyons ensemble si cela vous correspond. Vous n'avez rien à préparer.
 
-[Réserver un appel découverte](#booking)
+[Réserver un appel découverte](#discovery)
 :::
 
 <!-- TODO: outil visio (Cal Video / Google Meet / Zoom) et horaires. -->
@@ -77,5 +77,5 @@ Ce que vous partagez en séance reste confidentiel. Je travaille sous supervisio
 ::: cta
 ## Prêt·e à faire le premier pas ?
 
-[Réserver un appel découverte](#booking)
+[Réserver un appel découverte](#discovery)
 :::

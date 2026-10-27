@@ -53,6 +53,6 @@ This work is not suited to emergencies. Call 112 or your local emergency number,
 
 The easiest is to talk it through during a free 20-minute call.
 
-[Book a discovery call](#booking)
+[Book a discovery call](#discovery)
 [Email me](#email)
 :::

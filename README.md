@@ -30,7 +30,7 @@ Content/
 
 - The URL is the slugified file name. To hide a page, add `published: false` to its frontmatter (Workshops/Ateliers are hidden this way; also uncomment their menu entry in `config.yaml` when publishing).
 - When adding a page, add its FR↔EN pair under `routes` in `config.yaml` so the language switch and hreflang tags point to the right page.
-- Special link targets resolved from `config.yaml`: `#booking` (contact/booking page, per language), `#email`, `#phone`, `#workshops`.
+- Special link targets resolved from `config.yaml`: `#booking` (contact/booking page, per language), `#discovery` (free intro Cal.com event), `#email`, `#phone`, `#workshops`.
 - `<!-- TODO: … -->` comments are never rendered; they mark information still to confirm.
 - Images: files starting with `deco-` are decorative (empty alt). Other images get the alt text "Olivier Rouiller, {jobTitle}".
 

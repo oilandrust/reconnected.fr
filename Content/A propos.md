@@ -58,5 +58,5 @@ J'ai passé plusieurs années à chercher les meilleures méthodes pour ce trava
 ::: cta
 ## Faisons connaissance
 
-[Réserver un appel découverte](#booking)
+[Réserver un appel découverte](#discovery)
 :::

@@ -17,7 +17,7 @@
   "dependencies": {
     "@fontsource-variable/fraunces": "^5.2.5",
     "@fontsource-variable/manrope": "^5.2.5",
-    "@lefolio/engine": "^0.4.1",
+    "@lefolio/engine": "^0.4.2",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "react-markdown": "^10.1.0"

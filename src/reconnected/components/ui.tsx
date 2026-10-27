@@ -1,8 +1,9 @@
 'use client';
 
 import Link from 'next/link';
-import type { ReactNode } from 'react';
+import type { MouseEvent, ReactNode } from 'react';
 import { MarkdownBody } from '@lefolio/engine/markdown';
+import { isCalComUrl, openCalBooking } from '../lib/calcom';
 import type { BlockImage, MdLink } from '../lib/parse';
 import { useSite } from '../lib/site';
 
@@ -33,14 +34,23 @@ export function SmartLink({
 }) {
   const site = useSite();
   const target = site.href(href);
+  const handleClick = (event: MouseEvent<HTMLAnchorElement>) => {
+    if (isCalComUrl(target)) {
+      event.preventDefault();
+      openCalBooking(target);
+    }
+    onClick?.();
+  };
+
   if (/^(https?:|mailto:|tel:)/i.test(target) || target.startsWith('#')) {
-    const external = /^https?:/i.test(target);
+    const external = /^https?:/i.test(target) && !isCalComUrl(target);
     return (
       <a
         href={target}
         className={className}
-        onClick={onClick}
+        onClick={handleClick}
         {...(external ? { target: '_blank', rel: 'noopener noreferrer' } : {})}
+        {...(isCalComUrl(target) ? { rel: 'noopener noreferrer' } : {})}
       >
         {children}
       </a>

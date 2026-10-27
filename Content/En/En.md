@@ -109,5 +109,5 @@ I'm Olivier Rouiller. After ten years as a software engineer in video games and 
 
 The easiest first step is a free, no-commitment 20-minute call to see whether this approach is right for you.
 
-[Book a discovery call](#booking)
+[Book a discovery call](#discovery)
 :::

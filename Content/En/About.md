@@ -63,5 +63,5 @@ Outside sessions, I love movement, dance, and somatic and relational practices.
 ::: cta
 ## Let's get to know each other
 
-[Book a discovery call](#booking)
+[Book a discovery call](#discovery)
 :::

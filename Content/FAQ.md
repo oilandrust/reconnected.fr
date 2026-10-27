@@ -53,6 +53,6 @@ Mon accompagnement n'est pas adapté aux situations d'urgence. Appelez le 15 ou 
 
 Le plus simple est d'en parler de vive voix, lors d'un appel de 20 minutes gratuit.
 
-[Réserver un appel découverte](#booking)
+[Réserver un appel découverte](#discovery)
 [M'écrire](#email)
 :::

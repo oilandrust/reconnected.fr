@@ -17,7 +17,7 @@ Sessions & fees
 
 A free, no-commitment **20-minute** video call. You tell me what brings you, I explain how I work, and together we see whether it's a good fit. Nothing to prepare.
 
-[Book a discovery call](#booking)
+[Book a discovery call](#discovery)
 :::
 
 <!-- TODO: video tool, available hours for the Americas / Asia-Pacific. -->
@@ -80,5 +80,5 @@ What you share in sessions stays confidential. I am in regular supervision, wher
 ::: cta
 ## Ready for a first step?
 
-[Book a discovery call](#booking)
+[Book a discovery call](#discovery)
 :::

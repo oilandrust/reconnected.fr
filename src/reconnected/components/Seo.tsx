@@ -10,8 +10,9 @@ import { JsonLd } from './JsonLd';
  * ::: seo
  * title: Page title (≤ 60 chars)
  * description: Meta description (≤ 155 chars)
- * schema: service            # optional: adds ProfessionalService JSON-LD
+ * schema: service | article  # optional JSON-LD
  * image: /content-assets/…   # optional og:image override
+ * date: 2026-10-27           # optional for schema: article
  * :::
  * ```
  * Renders nothing visible; React hoists the tags into <head>.
@@ -26,6 +27,7 @@ export default function Seo({ content }: MarkdownBlockProps) {
   const image = meta.image ?? avatar;
   const title = meta.title ?? config.brand;
   const description = meta.description ?? '';
+  const isArticle = meta.schema === 'article';
 
   const graph: Record<string, unknown>[] = [
     {
@@ -48,6 +50,22 @@ export default function Seo({ content }: MarkdownBlockProps) {
         .map(([, value]) => value),
     },
   ];
+
+  if (isArticle) {
+    graph.push({
+      '@type': 'BlogPosting',
+      '@id': `${url}#article`,
+      headline: title,
+      description,
+      url,
+      inLanguage: lang,
+      author: { '@id': `${siteUrl}/#person` },
+      publisher: { '@id': `${siteUrl}/#person` },
+      mainEntityOfPage: { '@type': 'WebPage', '@id': url },
+      ...(meta.date ? { datePublished: meta.date, dateModified: meta.date } : {}),
+      ...(image ? { image: `${siteUrl}${image}` } : {}),
+    });
+  }
 
   if (meta.schema === 'service') {
     const fr = lang === 'fr';
@@ -98,7 +116,7 @@ export default function Seo({ content }: MarkdownBlockProps) {
       {alternates.fr ? (
         <link rel="alternate" hrefLang="x-default" href={`${siteUrl}${alternates.fr}`} />
       ) : null}
-      <meta property="og:type" content="website" />
+      <meta property="og:type" content={isArticle ? 'article' : 'website'} />
       <meta property="og:site_name" content={config.brand} />
       <meta property="og:title" content={title} />
       <meta property="og:description" content={description} />
@@ -108,7 +126,9 @@ export default function Seo({ content }: MarkdownBlockProps) {
         <meta key={code} property="og:locale:alternate" content={config.languages[code].locale} />
       ))}
       {image ? <meta property="og:image" content={`${siteUrl}${image}`} /> : null}
-      <meta name="twitter:card" content="summary" />
+      {isArticle && meta.date ? <meta property="article:published_time" content={meta.date} /> : null}
+      {isArticle ? <meta property="article:author" content={config.author.name} /> : null}
+      <meta name="twitter:card" content={image ? 'summary_large_image' : 'summary'} />
       <JsonLd data={{ '@context': 'https://schema.org', '@graph': graph }} />
     </>
   );

@@ -67,5 +67,5 @@ I am a somatic practitioner (in France, my professional title is *psychopraticie
 
 A free, no-commitment 20-minute call to see whether this approach is right for you.
 
-[Book a discovery call](#booking)
+[Book a discovery call](#discovery)
 :::
