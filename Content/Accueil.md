@@ -57,7 +57,7 @@ Le travail s'appuie sur la pleine conscience. Nous prenons le temps d'instaurer 
 
 Ma pratique est inspirée de la méthode Hakomi et nourrie par le Focusing, les approches de l'attachement et les thérapies du psycho-trauma.
 
-[Découvrir l'approche](/approche)
+[Découvrir l'approche](/approche/)
 
 ![[deco-ricardomoura.webp]]
 :::
