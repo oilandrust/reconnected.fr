@@ -8,11 +8,13 @@ description: Pleine conscience, corps et relation : découvrez l'approche Hakomi
 :::
 
 ::: hero
-# Hakomi: une approche psycho-corporelle pour la thérapie de l'attachement
+# Une approche psycho-corporelle pour la thérapie de l'attachement
 
-La thérapie somatique de l'attachement permet d'apporter de la curiosité aux patterns d'attachement et de les changer progressivement et en douceur pour plus de sécurité dans le lien:
+La thérapie somatique de l'attachement inspirée de la méthode Hakomi permet d'apporter de la curiosité aux patterns d'attachement et de les changer progressivement et en douceur pour plus de sécurité dans le lien:
 
 Nos styles d'attachement et nos patterns relationnels sont appris dès le plus jeune âge et sont inscrits dans notre corps et notre système nerveux. Un attachement anxieux peut par exemple être associé à des patterns d'agrippement ; un attachement évitant peut être associé à une dessensibilisation aux sensations. La méthode Hakomi permet d'étudier ces patterns avec bienveillance et d'apporter des expériences qui permettent de les assouplir.
+
+![[deco-ricardomoura.webp]]
 :::
 
 ::: cards

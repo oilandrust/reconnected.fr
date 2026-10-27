@@ -13,6 +13,8 @@ Approach
 # A Hakomi-informed somatic approach
 
 We are more than thinking heads. Our experiences, especially the early and relational ones, live on in the body: in a breath that holds, a shoulder that tightens, an impulse that stops, a feeling that rises out of nowhere. My work is to meet these signals with curiosity rather than work around them.
+
+![[deco-ricardomoura.webp]]
 :::
 
 ::: cards
