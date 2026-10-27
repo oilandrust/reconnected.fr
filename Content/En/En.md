@@ -10,13 +10,13 @@ schema: service
 :::
 
 ::: hero
-Olivier Rouiller · Somatic practitioner · Online, based in Strasbourg, France
+Olivier Rouiller · Somatic practitioner
 
-# Mindfulness-based somatic therapy online
+# Mindfulness-based somatic therapy online and in-person in Strasbourg
 
-## (Re)connect with yourself, your body and the people in your life.
+## Reconnect with your authentic Self
 
-I offer body-centred, mindfulness-based sessions informed by the Hakomi method. It is gentle work that starts from what you are experiencing right now (sensations, emotions, impulses) to understand what keeps replaying inside you and in your relationships.
+I offer body-centered, mindfulness-based therapy informed by the Hakomi method. It is gentle work that starts from what you are experiencing right now (sensations, emotions, impulses) to understand what keeps replaying inside you and in your relationships.
 
 ![[olivier-rouiller.webp]]
 
