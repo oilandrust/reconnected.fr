@@ -3,7 +3,6 @@
 import type { MarkdownBlockProps } from '@lefolio/engine/template';
 import { firstHeading, stripHeading } from '@lefolio/engine/parse';
 import { parseKeyValues, stripComments } from '../lib/parse';
-import { useSite } from '../lib/site';
 import { InlineText, Md } from './ui';
 
 /**
@@ -20,7 +19,6 @@ import { InlineText, Md } from './ui';
  * ```
  */
 export default function Article({ content }: MarkdownBlockProps) {
-  const { config, language } = useSite();
   const source = stripComments(content);
   const title = firstHeading(source, 1);
   let rest = stripHeading(source, title);
@@ -56,13 +54,11 @@ export default function Article({ content }: MarkdownBlockProps) {
               <InlineText text={title} />
             </h1>
           ) : null}
-          <p className="rc-article__byline">
-            {date ? <time dateTime={meta.datetime || undefined}>{date}</time> : null}
-            {date ? <span aria-hidden="true"> · </span> : null}
-            <span>{config.author.name}</span>
-            <span aria-hidden="true"> · </span>
-            <span>{language.jobTitle}</span>
-          </p>
+          {date ? (
+            <p className="rc-article__byline">
+              <time dateTime={meta.datetime || undefined}>{date}</time>
+            </p>
+          ) : null}
         </header>
         <Md content={body} className="rc-article__body" />
       </div>
