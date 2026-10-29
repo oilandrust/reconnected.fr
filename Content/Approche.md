@@ -1,11 +1,9 @@
 ---
 title: Approche
+description: "Pleine conscience, corps et relation : découvrez l'approche Hakomi, le Focusing et le travail sur l'attachement, et le déroulement d'une séance."
+seo:
+  title: "Thérapie somatique et de l'attachement inspirée de Hakomi – Strasbourg"
 ---
-
-::: seo
-title: Thérapie somatique et de l'attachement inspirée de Hakomi – Strasbourg
-description: Pleine conscience, corps et relation : découvrez l'approche Hakomi, le Focusing et le travail sur l'attachement, et le déroulement d'une séance.
-:::
 
 ::: hero
 # Une approche psycho-corporelle pour la thérapie de l'attachement

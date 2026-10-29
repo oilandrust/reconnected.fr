@@ -2,12 +2,10 @@
 title: Ateliers
 # Not built yet. To publish: remove this line, then uncomment "Ateliers" in config.yaml (languages.fr.menu).
 published: false
+description: "Bientôt à Strasbourg : soirées de relations authentiques (Authentic Relating, Circling) pour pratiquer la présence et la connexion. Être informé·e."
+seo:
+  title: "Authentic Relating et Circling à Strasbourg – Ateliers"
 ---
-
-::: seo
-title: Authentic Relating et Circling à Strasbourg – Ateliers
-description: Bientôt à Strasbourg : soirées de relations authentiques (Authentic Relating, Circling) pour pratiquer la présence et la connexion. Être informé·e.
-:::
 
 ::: hero
 Bientôt

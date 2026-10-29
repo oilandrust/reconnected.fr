@@ -30,6 +30,7 @@ Content/
 
 - The URL is the slugified file name. To hide a page, add `published: false` to its frontmatter (Workshops/Ateliers are hidden this way; also uncomment their menu entry in `config.yaml` when publishing).
 - When adding a page, add its FR↔EN pair under `routes` in `config.yaml` so the language switch and hreflang tags point to the right page.
+- SEO comes from frontmatter: `description` is the meta description, `title` is the short page name, and `seo.title` overrides the long document `<title>`. Optional `seo.schema: service` or `article` adds JSON-LD.
 - Special link targets resolved from `config.yaml`: `#booking` (contact/booking page, per language), `#discovery` (free intro Cal.com event), `#email`, `#phone`, `#workshops`.
 - `<!-- TODO: … -->` comments are never rendered; they mark information still to confirm.
 - Images: files starting with `deco-` are decorative (empty alt). Other images get the alt text "Olivier Rouiller, {jobTitle}".
@@ -40,7 +41,6 @@ Write `::: name` … `:::` in a page. Inside a block, `## Heading` is the sectio
 
 | Block | Content |
 | --- | --- |
-| `seo` | `title:`, `description:`, optional `schema: service`. Sets title, canonical, hreflang, Open Graph, JSON-LD. One per page. |
 | `hero` | Optional eyebrow line, `# H1`, optional `## subtitle`, text, optional image, buttons. |
 | `split` | Text beside an image. Put the image before the heading to place it on the left. |
 | `checklist` | Title, intro, `- item` list (leaf cards). |

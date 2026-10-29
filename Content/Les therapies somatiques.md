@@ -2,14 +2,11 @@
 title: Les thérapies somatiques
 permalink: les-therapies-somatiques
 date: 2026-10-27
+description: "Corps et esprit, traumatismes, Somatic Experiencing, Hakomi, Focusing : ce que sont les thérapies somatiques, leurs fondements et pour qui elles peuvent aider."
+seo:
+  title: "Les thérapies somatiques – qu’est-ce que c’est ?"
+  schema: article
 ---
-
-::: seo
-title: Les thérapies somatiques – qu’est-ce que c’est ?
-description: Corps et esprit, traumatismes, Somatic Experiencing, Hakomi, Focusing : ce que sont les thérapies somatiques, leurs fondements et pour qui elles peuvent aider.
-schema: article
-date: 2026-10-27
-:::
 
 ::: article
 # Les thérapies somatiques

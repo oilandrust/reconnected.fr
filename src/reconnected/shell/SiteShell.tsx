@@ -4,6 +4,7 @@ import { useEffect, type ReactNode } from 'react';
 import type { ContentManifest } from '@lefolio/engine/template';
 import { SiteProvider, useSite, type SiteConfig } from '../lib/site';
 import GoatCounter from '../components/GoatCounter';
+import Schema from '../components/Schema';
 import Header from './Header';
 import Footer from './Footer';
 
@@ -34,6 +35,7 @@ export default function SiteShell({
       avatar={manifest.authorAvatar}
     >
       <LegacyAnchorRedirect />
+      <Schema manifest={manifest} />
       <GoatCounter />
       <div className="rc-shell">
         <Header />

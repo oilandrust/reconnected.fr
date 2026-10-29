@@ -106,11 +106,7 @@ export function leadItem(item: string): LeadItem {
   return { lead: match[1].replace(/[.:]$/, '').trim(), text: match[2].trim() };
 }
 
-/* ------------------------------------------------------------------ */
-/* ::: seo                                                             */
-/* ------------------------------------------------------------------ */
-
-/** `key: value` lines. */
+/** `key: value` lines (article date, kicker, and similar block meta). */
 export function parseKeyValues(markdown: string): Record<string, string> {
   const data: Record<string, string> = {};
   for (const line of stripComments(markdown).split('\n')) {

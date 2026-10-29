@@ -1,12 +1,10 @@
 ---
 title: Accueil
+description: "Thérapie de l'attachement, théorie polyvagale, méthode Hakomi, en présentiel à Strasbourg ou en visio. Séances de 50 min, tarif solidaire 40–89 €. Appel découverte gratuit."
+seo:
+  title: "Psychopraticien à Strasbourg et en ligne – Olivier Rouiller"
+  schema: service
 ---
-
-::: seo
-title: Psychopraticien à Strasbourg et en ligne – Olivier Rouiller
-description: Thérapie de l'attachement, théorie polyvagale, méthode Hakomi, en présentiel à Strasbourg ou en visio. Séances de 50 min, tarif solidaire 40–89 €. Appel découverte gratuit.
-schema: service
-:::
 
 ::: hero
 Olivier Rouiller · Psychopraticien

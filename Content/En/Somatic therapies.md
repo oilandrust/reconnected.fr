@@ -2,14 +2,11 @@
 title: Somatic therapies
 permalink: somatic-therapies
 date: 2026-10-27
+description: "Body and mind, trauma, Somatic Experiencing, Hakomi, Focusing: what somatic therapies are, their foundations, and who they can help."
+seo:
+  title: "What are somatic therapies?"
+  schema: article
 ---
-
-::: seo
-title: What are somatic therapies?
-description: Body and mind, trauma, Somatic Experiencing, Hakomi, Focusing: what somatic therapies are, their foundations, and who they can help.
-schema: article
-date: 2026-10-27
-:::
 
 ::: article
 # Somatic therapies

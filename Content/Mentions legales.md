@@ -1,11 +1,9 @@
 ---
 title: Mentions légales
+description: "Mentions légales, hébergement et politique de confidentialité du site re-connected.fr."
+seo:
+  title: "Mentions légales et confidentialité – re-connected.fr"
 ---
-
-::: seo
-title: Mentions légales et confidentialité – re-connected.fr
-description: Mentions légales, hébergement et politique de confidentialité du site re-connected.fr.
-:::
 
 ::: hero
 Informations légales

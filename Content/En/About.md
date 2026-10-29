@@ -1,11 +1,9 @@
 ---
 title: About
+description: "Hakomi training with the Hakomi Institute of California, psychology student in Strasbourg, regular supervision. Background and training."
+seo:
+  title: "About Olivier Rouiller – Somatic Practitioner"
 ---
-
-::: seo
-title: About Olivier Rouiller – Somatic Practitioner
-description: Hakomi training with the Hakomi Institute of California, psychology student in Strasbourg, regular supervision. Background and training.
-:::
 
 ::: hero
 About

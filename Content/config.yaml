@@ -1,5 +1,5 @@
 site:
-  # Left empty on purpose: each page's `::: seo` block sets <title> and description.
+  # Left empty on purpose: each page's frontmatter `seo.title` and `description` set the document title and meta description.
   title: ""
   url: "https://www.re-connected.fr"
   basePath: ""

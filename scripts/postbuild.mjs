@@ -46,7 +46,7 @@ for (const file of htmlFiles(OUT)) {
   const titles = html.match(/<title>/g)?.length ?? 0;
   const isPage = path.basename(file) === 'index.html' && !/\/(404|_not-found)\/$/.test(route);
   if (titles !== 1 && isPage) {
-    warn(`${route} has ${titles} <title> tags (missing \`::: seo\` block?)`);
+    warn(`${route} has ${titles} <title> tags (missing frontmatter title or seo.title?)`);
   }
 }
 

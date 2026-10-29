@@ -1,11 +1,9 @@
 ---
 title: À propos
+description: "Formé à la méthode Hakomi (Hakomi Institute of California). Parcours et formations."
+seo:
+  title: "À propos – Olivier Rouiller, psychopraticien à Strasbourg"
 ---
-
-::: seo
-title: À propos – Olivier Rouiller, psychopraticien à Strasbourg
-description: Formé à la méthode Hakomi (Hakomi Institute of California). Parcours et formations.
-:::
 
 ::: hero
 # Passionné de transformation depuis 10 ans

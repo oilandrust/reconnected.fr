@@ -1,11 +1,9 @@
 ---
 title: FAQ
+description: "What is a psychopraticien? Does it work online? How many sessions, fees, insurance and confidentiality: answers to common questions."
+seo:
+  title: "FAQ – Online Somatic Therapy with Olivier Rouiller"
 ---
-
-::: seo
-title: FAQ – Online Somatic Therapy with Olivier Rouiller
-description: What is a psychopraticien? Does it work online? How many sessions, fees, insurance and confidentiality: answers to common questions.
-:::
 
 ::: hero
 FAQ

@@ -2,12 +2,10 @@
 title: Workshops
 # Not built yet. To publish: remove this line, then uncomment "Workshops" in config.yaml (languages.en.menu).
 published: false
+description: "Coming soon in Strasbourg: authentic relating and circling evenings to practise presence and connection. Get notified about the first date."
+seo:
+  title: "Authentic Relating & Circling Workshops in Strasbourg"
 ---
-
-::: seo
-title: Authentic Relating & Circling Workshops in Strasbourg
-description: Coming soon in Strasbourg: authentic relating and circling evenings to practise presence and connection. Get notified about the first date.
-:::
 
 ::: hero
 Coming soon

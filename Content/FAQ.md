@@ -1,11 +1,9 @@
 ---
 title: Questions fréquentes
+description: "Psychopraticien ou psychologue ? Visio, nombre de séances, tarifs, remboursement, confidentialité : les réponses à vos questions."
+seo:
+  title: "Questions fréquentes – Psychopraticien, visio, tarifs"
 ---
-
-::: seo
-title: Questions fréquentes – Psychopraticien, visio, tarifs
-description: Psychopraticien ou psychologue ? Visio, nombre de séances, tarifs, remboursement, confidentialité : les réponses à vos questions.
-:::
 
 ::: hero
 FAQ

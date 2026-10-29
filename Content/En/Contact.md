@@ -1,11 +1,9 @@
 ---
 title: Contact
+description: "Book an in-person session in Strasbourg online, or reach me by email, phone or the contact form for a free discovery call or a video session."
+seo:
+  title: "Book a Session – Olivier Rouiller, Somatic Practitioner"
 ---
-
-::: seo
-title: Book a Session – Olivier Rouiller, Somatic Practitioner
-description: Book an in-person session in Strasbourg online, or reach me by email, phone or the contact form for a free discovery call or a video session.
-:::
 
 ::: calendly
 ## Book a session

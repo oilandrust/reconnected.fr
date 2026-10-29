@@ -1,11 +1,9 @@
 ---
 title: Approach
+description: "Mindfulness, the body and relationships: how Hakomi-informed somatic work, Focusing and attachment-based practice unfold in a session."
+seo:
+  title: "The Hakomi Method & Somatic Approach – Olivier Rouiller"
 ---
-
-::: seo
-title: The Hakomi Method & Somatic Approach – Olivier Rouiller
-description: Mindfulness, the body and relationships: how Hakomi-informed somatic work, Focusing and attachment-based practice unfold in a session.
-:::
 
 ::: hero
 Approach

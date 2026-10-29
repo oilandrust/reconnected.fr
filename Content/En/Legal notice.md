@@ -1,11 +1,9 @@
 ---
 title: Legal notice
+description: "Legal notice, hosting and privacy policy for re-connected.fr."
+seo:
+  title: "Legal Notice & Privacy – re-connected.fr"
 ---
-
-::: seo
-title: Legal Notice & Privacy – re-connected.fr
-description: Legal notice, hosting and privacy policy for re-connected.fr.
-:::
 
 ::: hero
 Legal information

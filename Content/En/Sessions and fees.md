@@ -1,12 +1,10 @@
 ---
 title: Sessions & fees
+description: "50-minute sessions online or in person in Strasbourg, in English or French on a sliding scale: €40, €65 or €89. Start with a free 20-minute discovery call."
+seo:
+  title: "Sessions & Fees – Online Somatic Therapy (€40–89)"
+  schema: service
 ---
-
-::: seo
-title: Sessions & Fees – Online Somatic Therapy (€40–89)
-description: 50-minute sessions online or in person in Strasbourg, in English or French on a sliding scale: €40, €65 or €89. Start with a free 20-minute discovery call.
-schema: service
-:::
 
 ::: hero
 Sessions & fees

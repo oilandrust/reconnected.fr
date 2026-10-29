@@ -1,7 +1,6 @@
 import type { TemplateModule } from '@lefolio/engine/template';
 import SiteShell from './shell/SiteShell';
 import { ContentPageView, HomeView, SectionIndexView, StandalonePageView } from './views/Page';
-import Seo from './components/Seo';
 import Hero from './components/Hero';
 import Checklist from './components/Checklist';
 import Split from './components/Split';
@@ -28,7 +27,6 @@ export const reconnectedTemplate: TemplateModule = {
   StandalonePage: StandalonePageView,
   ContentPage: ContentPageView,
   markdownComponents: {
-    seo: Seo,
     hero: Hero,
     checklist: Checklist,
     split: Split,
