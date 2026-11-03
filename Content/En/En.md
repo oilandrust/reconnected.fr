@@ -57,7 +57,7 @@ Every path is different and I don't promise outcomes. But this is what people I 
 
 The work rests on mindfulness and compassionate curiosity. We first take time to build trust and safety. Then, at your pace, we explore what shows up: a sensation, a feeling, a memory, a belief. That is often where more vulnerable parts of you can finally be met.
 
-My practice is informed by the Hakomi method and draws on Focusing, attachment-based and trauma-informed approaches.
+My practice is informed by the Hakomi method and draws on Focusing, attachment-based, and trauma-informed approaches.
 
 [Read about the approach](/en/approach/)
 

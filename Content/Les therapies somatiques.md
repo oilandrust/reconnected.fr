@@ -13,7 +13,7 @@ seo:
 date: 27 octobre 2026
 datetime: 2026-10-27
 
-Les thérapies somatiques font intervenir le corps et son ressenti. On y retrouve Somatic Experiencing, Hakomi, la thérapie sensorimotrice et les approches fondées sur la théorie polyvagale.  Elles permettent de travailler sur des difficultés variées, notamment des traumatismes, des difficultés relationnelles ou de l'anxiété. Elles ont des bases scientifiques bien que peu d'études se soient penchées sur leur efficacité en comparaison à d'autres courants comme les TCC.
+Les thérapies somatiques font intervenir le corps et son ressenti. On y retrouve Somatic Experiencing, Hakomi, la thérapie sensorimotrice et les approches fondées sur la théorie polyvagale. Elles permettent de travailler sur des difficultés variées, notamment des traumatismes, des difficultés relationnelles ou de l'anxiété. Elles ont des bases scientifiques bien que peu d'études se soient penchées sur leur efficacité en comparaison à d'autres courants comme les TCC.
 
 ## En quoi consistent les thérapies somatiques ?
 

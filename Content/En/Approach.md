@@ -56,12 +56,6 @@ You are always free to slow down, pause or say no. Online, the work happens thro
 Adults, individually or as a couple, who want to understand themselves better and live their relationships more authentically. You don't need any meditation experience or to "already be in touch with your body": it is learned along the way.
 :::
 
-::: notice
-## What this work is not
-
-I am a somatic practitioner (in France, my professional title is *psychopraticien*). I am not a medical doctor or a licensed psychologist. My sessions do not replace medical or psychiatric care and do not provide diagnoses. If you are in acute crisis, at risk, or need medical follow-up, I will help you find appropriate support. Where relevant, our work can complement that care.
-:::
-
 ::: cta
 ## Curious to try?
 

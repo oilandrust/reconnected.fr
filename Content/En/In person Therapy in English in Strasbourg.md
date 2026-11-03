@@ -38,10 +38,10 @@ I have experience working in English and with international people. My method is
 ::: facts
 ## Practical details
 
-- **50 minutes** · Individual or couple sessions
-- **Online or in person** · By video from anywhere, or in person in Strasbourg
-- **€40–89** · Sliding scale, you choose what fits your means
-- **20 minutes, free** · A discovery call first, to get to know each other
+- **50 minutes** · My sessions are 50 minutes
+- **Place de Hagenau** · My office is located near Strasbourg Central Station, and I offer online sessions as well
+- **€40–89** · I offer a sliding scale to adapt to different needs
+- **20 minutes, free** · Feel free to book a free online call for a first contact
 
 [Sessions & fees](/en/sessions-and-fees/)
 
