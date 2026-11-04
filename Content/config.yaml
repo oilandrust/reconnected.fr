@@ -9,7 +9,7 @@ brand: "Re-Connected"
 
 # Cookieless pageviews (EU-hosted). Empty / omit to disable.
 analytics:
-  goatcounter: "https://overlii.goatcounter.com/count"
+  goatcounter: "https://re-connected.goatcounter.com/count"
 
 template: reconnected
 home: "Accueil.md"
