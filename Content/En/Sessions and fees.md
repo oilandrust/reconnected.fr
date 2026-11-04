@@ -7,8 +7,6 @@ seo:
 ---
 
 ::: hero
-Sessions & fees
-
 # Sessions and fees
 
 ## First step: a free discovery call

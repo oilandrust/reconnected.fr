@@ -6,11 +6,9 @@ seo:
 ---
 
 ::: hero
-Approach
+# Somatic and Attachment Therapy
 
-# A Hakomi-informed somatic approach
-
-We are more than thinking heads. Our experiences, especially the early and relational ones, live on in the body: in a breath that holds, a shoulder that tightens, an impulse that stops, a feeling that rises out of nowhere. My work is to meet these signals with curiosity rather than work around them.
+The work I offer is informed by attachment work and the Hakomi method. Our experiences, especially the early and relational ones, live on in the body: in a breath that holds, a shoulder that tightens, an impulse that stops, a feeling that rises out of nowhere. In Somatic Therapy, we bring mindfulness to those signals and allow them to unfold for more ease in our lives and our relationships.
 
 ![[deco-ricardomoura.webp]]
 :::
@@ -18,14 +16,14 @@ We are more than thinking heads. Our experiences, especially the early and relat
 ::: cards
 ## Hakomi in a nutshell
 
-Hakomi is a body-centred, mindfulness-based method developed by Ron Kurtz from the 1970s. It rests on a few simple principles:
+Hakomi is a body-centered, mindfulness-based method developed by Ron Kurtz in the 1970s. It is based on a few principles:
 
 - **Mindfulness**: slowing down to notice what is happening inside, in the present moment.
 - **Non-violence**: nothing is forced. The parts of you that protect you are respected, not fought.
 - **Organicity**: you carry your own direction of growth, and my role is to support it.
 - **Mind-body unity**: thoughts, emotions, sensations and memories form a whole.
 
-Rather than only *talking about* your life, we gently study *how* your experience organises itself here and now. This is often how deep beliefs ("I have to manage on my own", "I don't matter") become visible, and how a new experience becomes possible.
+Rather than only *talking about* your life, we gently study *how* your experience organizes itself here and now. This is often how deep beliefs ("I have to manage on my own", "I don't matter") become visible, and how a new experience becomes possible.
 :::
 
 ::: split

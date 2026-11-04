@@ -6,8 +6,6 @@ seo:
 ---
 
 ::: hero
-FAQ
-
 # Frequently asked questions
 :::
 

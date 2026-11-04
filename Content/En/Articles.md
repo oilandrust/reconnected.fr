@@ -10,8 +10,6 @@ seo:
 ::: articles
 # Articles
 
-Two essays on what somatic therapies are, and on what sets Somatic Experiencing and Hakomi apart.
-
 ## What is the difference between Somatic Experiencing and Hakomi?
 date: 4 November 2026
 datetime: 2026-11-04

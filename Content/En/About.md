@@ -28,7 +28,7 @@ Outside sessions, I love movement, dance, and somatic and relational practices.
 ::: timeline
 ## Training
 
-- **Ongoing**: Bachelor's degree (Licence) in psychology, University of Strasbourg
+- **2024-2026**: Bachelor's degree (Licence) in psychology, University of Strasbourg
 - **2024–2025**: Hakomi Professional Training, Level 2, Hakomi Institute of California
 - **2023–2024**: Hakomi Professional Training, Level 1, Hakomi Institute of California
 - **2022**: Somatic Attachment Therapy Certificate, Embody Lab
@@ -39,10 +39,10 @@ Outside sessions, I love movement, dance, and somatic and relational practices.
 ::: timeline
 ## Further training
 
-- **2025**: Introduction to Somatic Experiencing, physiological restoration of traumatic disorganisation (Michel Schittecatte)
+- **2025**: Introduction to Somatic Experiencing, physiological restoration of traumatic disorganization (Michel Schittecatte)
 - **2025**: The Brilliant Lab, somatic, relational, trauma-informed practices (Rita Bozi)
 - **2025**: Embodied Intimacy, addressing sexuality in Hakomi therapy (Maci Daye)
-- **2025**: Authentic Relating Level 1 (ART International)
+- **2025**: Authentic Relating Level 1 & 2 (ART International)
 - **2023**: Shame and Self-Loathing in the Treatment of Trauma (Janina Fisher, PhD)
 :::
 
