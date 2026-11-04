@@ -16,6 +16,7 @@ import Cta from './components/Cta';
 import Calendly from './components/Calendly';
 import Contact from './components/Contact';
 import Article from './components/Article';
+import ArticleIndex from './components/ArticleIndex';
 
 export const reconnectedTemplate: TemplateModule = {
   id: 'reconnected',
@@ -42,5 +43,6 @@ export const reconnectedTemplate: TemplateModule = {
     calendly: Calendly,
     contact: Contact,
     article: Article,
+    articles: ArticleIndex,
   },
 };

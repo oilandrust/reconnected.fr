@@ -95,7 +95,7 @@ languages:
       - "Séances & tarifs": "/seances-et-tarifs/"
       - "À propos": "/a-propos/"
       # - "Ateliers": "/ateliers/"   # publish Ateliers.md first
-      - "Articles": "/les-therapies-somatiques/"
+      - "Articles": "/articles/"
       - "Contact": "/contact/#contact"
     cta:
       label: "Prendre Rendez-vous"
@@ -118,7 +118,7 @@ languages:
       - "Sessions & fees": "/en/sessions-and-fees/"
       - "About": "/en/about/"
       # - "Workshops": "/en/workshops/"   # publish En/Workshops.md first
-      - "Articles": "/en/somatic-therapies/"
+      - "Articles": "/en/articles/"
       - "Contact": "/en/contact/#contact"
     cta:
       label: "Book a session"
@@ -140,7 +140,9 @@ routes:
   - { fr: "/a-propos/", en: "/en/about/" }
   - { fr: "/ateliers/", en: "/en/workshops/" }
   - { fr: "/faq/", en: "/en/faq/" }
-  - { fr: "/les-therapies-somatiques/", en: "/en/somatic-therapies/" }
+  - { fr: "/articles/", en: "/en/articles/" }
+  - { fr: "/articles/les-therapies-somatiques/", en: "/en/somatic-therapies/" }
+  - { fr: "/articles/somatic-experiencing-vs-hakomi/", en: "/en/somatic-experiencing-vs-hakomi/" }
   - { fr: "/contact/", en: "/en/contact/" }
   - { fr: "/mentions-legales/", en: "/en/legal-notice/" }
   - { en: "/en/in-person-therapy-in-english-in-strasbourg/" }
@@ -149,6 +151,7 @@ routes:
 # A target that is not built (e.g. unpublished /ateliers/) falls back to `fallback`.
 redirects:
   "/fr/": "/"
+  "/les-therapies-somatiques/": "/articles/les-therapies-somatiques/"
   "/hakomi-somatic-mindful-therapy/": "/en/approach/"
   "/about-me/": "/en/about/"
   "/book-a-free-discovery-session/": "/en/contact/"
