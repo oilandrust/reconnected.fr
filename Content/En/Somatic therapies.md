@@ -1,6 +1,6 @@
 ---
 title: Somatic therapies
-permalink: somatic-therapies
+permalink: articles/somatic-therapies
 date: 2026-10-27
 description: "Body and mind, trauma, Somatic Experiencing, Hakomi, Focusing: what somatic therapies are, their foundations, and who they can help."
 seo:

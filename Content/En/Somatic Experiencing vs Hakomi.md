@@ -1,7 +1,7 @@
 ---
 title: "Somatic Experiencing and Hakomi"
 lang: en
-permalink: somatic-experiencing-vs-hakomi
+permalink: articles/somatic-experiencing-vs-hakomi
 date: 2026-11-04
 description: "Shock trauma and developmental trauma: how Somatic Experiencing and Hakomi differ, and how each works through the body."
 seo:

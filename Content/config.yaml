@@ -141,8 +141,8 @@ routes:
   - { fr: "/ateliers/", en: "/en/workshops/" }
   - { fr: "/faq/", en: "/en/faq/" }
   - { fr: "/articles/", en: "/en/articles/" }
-  - { fr: "/articles/les-therapies-somatiques/", en: "/en/somatic-therapies/" }
-  - { fr: "/articles/somatic-experiencing-vs-hakomi/", en: "/en/somatic-experiencing-vs-hakomi/" }
+  - { fr: "/articles/les-therapies-somatiques/", en: "/en/articles/somatic-therapies/" }
+  - { fr: "/articles/somatic-experiencing-vs-hakomi/", en: "/en/articles/somatic-experiencing-vs-hakomi/" }
   - { fr: "/contact/", en: "/en/contact/" }
   - { fr: "/mentions-legales/", en: "/en/legal-notice/" }
   - { en: "/en/in-person-therapy-in-english-in-strasbourg/" }
@@ -152,6 +152,8 @@ routes:
 redirects:
   "/fr/": "/"
   "/les-therapies-somatiques/": "/articles/les-therapies-somatiques/"
+  "/en/somatic-therapies/": "/en/articles/somatic-therapies/"
+  "/en/somatic-experiencing-vs-hakomi/": "/en/articles/somatic-experiencing-vs-hakomi/"
   "/hakomi-somatic-mindful-therapy/": "/en/approach/"
   "/about-me/": "/en/about/"
   "/book-a-free-discovery-session/": "/en/contact/"
