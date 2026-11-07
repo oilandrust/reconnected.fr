@@ -2,7 +2,7 @@
   "name": "re-connected.fr",
   "private": true,
   "version": "2.0.0",
-  "description": "re-connected.fr — Olivier Rouiller, psychopraticien. LeFolio site: Content vault + site-local `reconnected` template.",
+  "description": "re-connected.fr — Olivier Rouiller, psychopraticien. LeFolio site.",
   "type": "module",
   "scripts": {
     "sync": "lefolio sync",
@@ -17,10 +17,14 @@
   "dependencies": {
     "@fontsource-variable/fraunces": "^5.2.5",
     "@fontsource-variable/manrope": "^5.2.5",
-    "@lefolio/engine": "^0.4.7",
+    "@lefolio/engine": "^0.5.0",
+    "@tailwindcss/postcss": "^4.1.12",
+    "@tailwindcss/typography": "^0.5.16",
+    "next": "^16.4.2",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
-    "react-markdown": "^10.1.0"
+    "react-markdown": "^10.1.0",
+    "tailwindcss": "^4.1.12"
   },
   "devDependencies": {
     "@types/node": "^22.17.2",

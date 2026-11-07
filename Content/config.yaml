@@ -11,7 +11,6 @@ brand: "Re-Connected"
 analytics:
   goatcounter: "https://re-connected.goatcounter.com/count"
 
-template: reconnected
 home: "Accueil.md"
 # The parent folder (~/Projects) is an Obsidian vault: keep asset lookup inside Content/.
 vault: .
