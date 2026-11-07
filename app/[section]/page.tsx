@@ -3,6 +3,8 @@ import { getSectionRoutes, loadManifest } from '@lefolio/engine/content';
 import { metadataForHref } from '@lefolio/engine/seo';
 import { SectionIndexView, StandalonePageView } from '@/views/Page';
 
+export const dynamicParams = false;
+
 export async function generateMetadata({
   params,
 }: {
