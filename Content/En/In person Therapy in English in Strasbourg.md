@@ -2,7 +2,7 @@
 title: In-person therapy
 lang: en
 permalink: in-person-therapy-in-english-in-strasbourg
-description: "In-person therapy in English in Strasbourg with Olivier Rouiller. Hakomi-informed somatic sessions, online or in the practice, €40–89. Book a free 20-minute call."
+description: "In-person therapy in English in Strasbourg with Olivier Rouiller. Hakomi-informed somatic sessions, online or in the practice, €50–80. Book a free 20-minute call."
 seo:
   title: "In-person Therapy in English in Strasbourg – Olivier Rouiller"
   schema: service
@@ -40,7 +40,7 @@ I have experience working in English and with international people. My method is
 
 - **50 minutes** · My sessions are 50 minutes
 - **Place de Hagenau** · My office is located near Strasbourg Central Station, and I offer online sessions as well
-- **€40–89** · I offer a sliding scale to adapt to different needs
+- **€50–80** · I offer a sliding scale to adapt to different needs
 - **20 minutes, free** · Feel free to book a free online call for a first contact
 
 [Sessions & fees](/en/sessions-and-fees/)

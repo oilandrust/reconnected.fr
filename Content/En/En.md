@@ -1,7 +1,7 @@
 ---
 title: Home
 lang: en
-description: "Body-centred, mindfulness-based sessions online in English or French. 50-minute sessions on a €40–89 sliding scale. Book a free 20-minute discovery call."
+description: "Body-centred, mindfulness-based sessions online in English or French. 50-minute sessions on a €50–80 sliding scale. Book a free 20-minute discovery call."
 seo:
   title: "Hakomi-Informed Somatic Therapy Online – Olivier Rouiller"
   schema: service
@@ -70,7 +70,7 @@ My practice is informed by the Hakomi method and draws on Focusing, attachment-b
 - **50 minutes** · Individual or couple sessions
 - **Online or in person** · By video from anywhere, or in person in Strasbourg
 - **English or French** · Whichever feels most natural to you
-- **€40–89** · Sliding scale, you choose what fits your means
+- **€50–80** · Sliding scale, you choose what fits your means
 - **20 minutes, free** · A discovery call first, to get to know each other
 
 [Sessions & fees](/en/sessions-and-fees/)
