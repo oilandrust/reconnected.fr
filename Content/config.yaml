@@ -142,6 +142,7 @@ routes:
   - { fr: "/articles/", en: "/en/articles/" }
   - { fr: "/articles/les-therapies-somatiques/", en: "/en/articles/somatic-therapies/" }
   - { fr: "/articles/somatic-experiencing-vs-hakomi/", en: "/en/articles/somatic-experiencing-vs-hakomi/" }
+  - { fr: "/articles/les-5-principes-du-circling/" }
   - { fr: "/contact/", en: "/en/contact/" }
   - { fr: "/mentions-legales/", en: "/en/legal-notice/" }
   - { en: "/en/in-person-therapy-in-english-in-strasbourg/" }
@@ -156,10 +157,10 @@ redirects:
   "/hakomi-somatic-mindful-therapy/": "/en/approach/"
   "/about-me/": "/en/about/"
   "/book-a-free-discovery-session/": "/en/contact/"
-  "/2025/02/28/les-5-principes-du-circling/": { to: "/ateliers/", fallback: "/approche/" }
-  "/fr/2025/02/28/les-5-principes-du-circling/": { to: "/ateliers/", fallback: "/approche/" }
-  "/category/circling/": { to: "/ateliers/", fallback: "/approche/" }
-  "/category/pratiques-relationelles/": { to: "/ateliers/", fallback: "/approche/" }
+  "/2025/02/28/les-5-principes-du-circling/": "/articles/les-5-principes-du-circling/"
+  "/fr/2025/02/28/les-5-principes-du-circling/": "/articles/les-5-principes-du-circling/"
+  "/category/circling/": "/articles/les-5-principes-du-circling/"
+  "/category/pratiques-relationelles/": "/articles/les-5-principes-du-circling/"
   "/author/olivier/": "/a-propos/"
   "/fr/author/olivier/": "/a-propos/"
   "/web/": "/"
