@@ -14,7 +14,7 @@ seo:
 date: 4 novembre 2026
 datetime: 2026-11-04
 
-Somatic Experiencing et Hakomi sont deux des principales modalités en thérapie somatique. Somatic Experiencing est spécialisée dans le traitement des traumatismes de choc tels que les accidents, les TSPT, etc. Hakomi traite les traumatismes du développement, qui surviennent pendant l'enfance et ne sont pas liés à un souvenir particulier. Les deux méthodes passent par le corps et ont de nombreux points communs.
+Somatic Experiencing et Hakomi sont deux des principales modalités en thérapie somatique. Somatic Experiencing est spécialisée dans le traitement des traumatismes de choc tels que les accidents, les TSPT, etc. Hakomi traite les traumatismes du développement, qui surviennent pendant l'enfance et ne sont pas liés à un souvenir particulier et qui peuvent être liés à des problèmes relationnels, à la dépendance affective, à la dépression ou à l'anxiété. Les deux méthodes passent par le corps et ont de nombreux points communs.
 
 ## Qu'est-ce qu'un traumatisme de choc ?
 

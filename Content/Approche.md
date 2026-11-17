@@ -10,7 +10,9 @@ seo:
 
 La thérapie somatique de l'attachement inspirée de la méthode Hakomi permet d'apporter de la curiosité aux patterns d'attachement et de les changer progressivement et en douceur pour plus de sécurité dans le lien:
 
-Nos styles d'attachement et nos patterns relationnels sont appris dès le plus jeune âge et sont inscrits dans notre corps et notre système nerveux. Un attachement anxieux peut par exemple être associé à des patterns d'agrippement ; un attachement évitant peut être associé à une dessensibilisation aux sensations. La méthode Hakomi permet d'étudier ces patterns avec bienveillance et d'apporter des expériences qui permettent de les assouplir.
+Nos styles d'attachement et nos patterns relationnels sont appris dès le plus jeune âge et sont inscrits dans notre corps et notre système nerveux. Un attachement anxieux peut par exemple être associé à des patterns d'agrippement et à une hyperactivation du système nerveux; un attachement évitant peut être associé à une dessensibilisation aux émotions et à une hypoactivation du système nerveux.
+
+La méthode Hakomi permet d'étudier ces patterns avec bienveillance et d'offrir des expériences qui les assouplissent.
 
 ![[deco-ricardomoura.webp]]
 :::
@@ -20,7 +22,7 @@ Nos styles d'attachement et nos patterns relationnels sont appris dès le plus j
 
 Hakomi est une approche psychocorporelle développée par Ron Kurtz à partir des années 1970. Elle s'appuie sur quelques principes :
 
-- **La pleine conscience** : on ralentit et on observe ce qui se passe à l'intérieur, au moment présent
+- **La pleine conscience** : le travail se fait en pleine conscience, on apporte de la curiosité à la manière dont on s'organise dans le lien et dans la vie.
 - **La non-violence** : on approche les parts vulnérables et les défenses avec respect et on les soutient plutôt que d'essayer de les changer
 - **L'organicité** : on fait confiance au système nerveux et à ce qui fait surface pendant la thérapie
 - **L'unité corps-esprit** : on approche la personne comme un tout ; pensées, émotions, sensations et mouvement sont interconnectés
@@ -34,9 +36,9 @@ Plutôt que de ne parler que de votre vie, nous étudions ensemble, avec douceur
 ## Mes autres sources d'inspiration
 
 - **Le Focusing** : il permet d'écouter le « ressenti » corporel associé à une situation.
-- **La thérapie de l'attachement** : comprendre comment nos premiers liens façonnent notre manière d'aimer, de faire confiance et de nous protéger.
-- **Les thérapies du psycho-trauma** : prendre soin de la régulation du système nerveux, avancer par petites étapes, rester dans une zone tolérable.
-- **Les pratiques relationnelles** (Authentic Relating, Circling) : la présence à soi et à l'autre dans l'instant.
+- **La thérapie de l'attachement** : La thérapie somatique permet d'apporter une attention particulière aux patterns d'attachement, notamment non-verbaux.
+- **Les thérapies du psycho-trauma** : Mon approche est inspirée par Somatic Experiencing et la théorie polyvagale.
+- **Les pratiques relationnelles** (Authentic Relating, Circling). Ces approches m'ont permis d'explorer ce que c'est que d'être ensemble en pleine conscience.
 :::
 
 ::: steps
@@ -51,7 +53,7 @@ Plutôt que de ne parler que de votre vie, nous étudions ensemble, avec douceur
 ::: split
 ## Pour qui?
 
-Je travaille jusqu'à présent avec des adultes, souvent des hommes mais pas seulement. Les personnes avec qui je travaille ont en général déjà fait un certain cheminement personnel et recherchent une méthode qui leur permet d'aller plus en profondeur. 
+Je travaille jusqu'à présent avec des adultes, souvent des hommes mais pas seulement. Les personnes avec qui je travaille ont en général déjà fait un certain cheminement personnel et recherchent une méthode qui leur permette d'aller plus en profondeur. 
 :::
 
 ::: cta
