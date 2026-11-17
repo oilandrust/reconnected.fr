@@ -1,7 +1,7 @@
 ---
 title: Home
 lang: en
-description: "Body-centred, mindfulness-based sessions online in English or French. 50-minute sessions on a €50–80 sliding scale. Book a free 20-minute discovery call."
+description: "Body-centered, mindfulness-based sessions online in English or French. 50-minute sessions on a €50–80 sliding scale. Book a free 20-minute discovery call."
 seo:
   title: "Hakomi-Informed Somatic Therapy Online – Olivier Rouiller"
   schema: service
@@ -10,9 +10,7 @@ seo:
 ::: hero
 Olivier Rouiller · Somatic practitioner
 
-# Somatic and attachment therapy online and in-person in Strasbourg
-
-## Reconnect with your authentic Self
+# Somatic and attachment therapy online
 
 I offer somatic therapy informed by the Hakomi method. It allows you to gently recalibrate your nervous system for more security and connection in your life and relationships.
 
@@ -61,7 +59,7 @@ My practice is informed by the Hakomi method and draws on Focusing, attachment-b
 
 [Read about the approach](/en/approach/)
 
-![[deco-foret-brume.webp]]
+![[public/content-assets/Assets/deco-ricardomoura.webp]]
 :::
 
 ::: facts

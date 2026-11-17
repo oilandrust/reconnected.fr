@@ -10,8 +10,6 @@ seo:
 Olivier Rouiller · Psychopraticien
 # Thérapie somatique et de l'attachement à Strasbourg et en ligne
 
-## Reconnecte-toi avec ton moi authentique
-
 Je propose une thérapie somatique et de l'attachement inspirée de la méthode Hakomi et de la théorie polyvagale, qui permet de recalibrer en douceur votre système nerveux pour plus de sécurité dans le lien et dans vos projets.
 
 ![[olivier-rouiller.webp]]
@@ -26,9 +24,9 @@ Je propose une thérapie somatique et de l'attachement inspirée de la méthode 
 ## Vous vous reconnaissez peut-être…
 
 - Difficultés relationnelles, de l'anxiété
-- Vous perdez vos moyens lorsque vous parlez à quelqu'un qui vous plaît
 - Des schémas qui se répètent dans vos relations : vous vous effacez, vous vous suradaptez, ou vous vous fermez dès que ça devient proche
 - Il vous est difficile de dire non, de poser vos limites ou d'exprimer vos besoins
+- Vous perdez vos moyens lorsque vous parlez à quelqu'un qui vous plaît
 - Une voix intérieure critique, de la honte ou le sentiment de « ne pas être assez »
 
 ![[deco-foret-brume.webp]]
