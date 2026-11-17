@@ -22,7 +22,7 @@ You are not alone, and I'm happy to support you with this.
 
 ::: split
 
-![[Content/Assets/olivier-rouiller-parc.webp]]
+![[Content/Assets/olivier-rouiller.webp]]
 
 ## Hi there, glad you're here
 
@@ -34,7 +34,27 @@ I have experience working in English and with international people. My method is
 
 [Learn more about how I work](/en/approach/)
 :::
+::: testimonials
 
+## What people say about working with me
+
+### Martin
+
+> "If you're seeking a therapeutic experience that goes beyond traditional talk therapy and offers a holistic approach that reaches deep into the nervous system, I highly recommend working with Olivier. His ability to facilitate deep healing and guide you toward greater freedom is truly remarkable."
+
+### Pav
+
+> "Thank you so much for the introductory session of Hakomi therapy yesterday. I was pleasantly surprised at the speed with which you connected me to my deeper emotions. I also valued your calm presence and insightful questions. I have no hesitation in recommending Hakomi therapy and you as a practitioner."
+
+### Gus
+
+> "I find regular Hakomi sessions with Olivier to be a potent and meaningful space for exploration, embodiment, and integration. Recently, our work has allowed me to access more unknown parts of myself and invite/integrate them into my conscious awareness. I appreciate a lot the attunement, curiosity, and regulated connection that Olivier brings to a session. The work is rooted in somatic awareness and with a strong attentiveness to the nuances of intersubjective dynamics. I can highly recommend Olivier as a somatic therapist!"
+
+### Annelie
+
+> "Olivier is very good at building trust and connection, and he really made me feel seen and listened to. With subtle means, emotions awoke in my body, and he was good at holding space and letting me explore whatever came up."  
+
+:::
 ::: facts
 ## Practical details
 
@@ -46,4 +66,13 @@ I have experience working in English and with international people. My method is
 [Sessions & fees](/en/sessions-and-fees/)
 
 ![[cabinet-strasbourg.webp|The practice room in Strasbourg]]
+:::
+
+::: cta
+
+## Want to talk it through?
+
+The easiest first step is a free, no-commitment 20-minute call to see whether this approach is right for you.
+
+[Book a discovery call](#discovery)  
 :::
