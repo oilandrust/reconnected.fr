@@ -8,11 +8,11 @@ seo:
 ---
 
 ::: hero
-Olivier Rouiller · Somatic practitioner
+Somatic and Attachment Therapy Online
 
-# Somatic and attachment therapy online
+# Recalibrate your nervous system for more security in your life and relationships
 
-I offer somatic therapy informed by the Hakomi method. It allows you to gently recalibrate your nervous system for more security and connection in your life and relationships.
+I offer somatic therapy informed by the Hakomi method. It allows you to gently recalibrate your nervous system for a more secure attachment style.
 
 ![[olivier-rouiller.webp]]
 
@@ -51,7 +51,7 @@ I offer somatic therapy informed by the Hakomi method. It allows you to gently r
 ::: split
 ## How I work
 
-The work rests on mindfulness and compassionate curiosity. We first take time to build trust and safety. Then, at your pace, we explore what shows up: a sensation, a feeling, a memory, a belief. That is often where more vulnerable parts of you can finally be met.
+In our session, we bring mindfulness to your relational patterns that you are curious about. We study how those patterns show up in your body, your emotions, thoughts, and movements. With this curiosity, we go deeper and study how those habits are linked to past hurts and memories. We can then provide a new experience that will help you show up differently in your life.
 
 My practice is informed by the Hakomi method and draws on Focusing, attachment-based, and trauma-informed approaches.
 
@@ -63,15 +63,13 @@ My practice is informed by the Hakomi method and draws on Focusing, attachment-b
 ::: facts
 ## Practical details
 
-- **50 minutes** · Individual or couple sessions
-- **Online or in person** · By video from anywhere, or in person in Strasbourg
-- **English or French** · Whichever feels most natural to you
-- **€50–80** · Sliding scale, you choose what fits your means
-- **20 minutes, free** · A discovery call first, to get to know each other
+- **50 minutes** · We take the time for your system to get a new experience and integrate
+- **Online or in person** · On Zoom, or in person in Strasbourg
+- **€50–80** · I offer a sliding scale based on income
+- **Free 20 min intro** · We can have a first contact so you get a feeling for whether you'd like us to work together
 
 [Sessions & fees](/en/sessions-and-fees/)
 
-![[cabinet-strasbourg.webp|The practice room in Strasbourg]]
 :::
 
 ::: testimonials
@@ -84,7 +82,7 @@ My practice is informed by the Hakomi method and draws on Focusing, attachment-b
 > "Thank you so much for the introductory session of Hakomi therapy yesterday. I was pleasantly surprised at the speed with which you connected me to my deeper emotions. I also valued your calm presence and insightful questions. I have no hesitation in recommending Hakomi therapy and you as a practitioner."
 
 ### Gus
-> "I find regular Hakomi sessions with Olivier to be a potent and meaningful space for exploration, embodiment, and integration. Recently, our work has allowed me to access more unknown parts of myself and invite/integrate them into my conscious awareness. I appreciate a lot the attunement, curiosity, and regulated connection that Olivier brings to a session. The work is rooted in somatic awareness and with a strong attentiveness to the nuances of intersubjective dynamics. I can highly recommend Olivier as a somatic therapist!"
+> "Over a period of about two years I've had around a dozen of online somatic therapy sessions with Olivier - which has been a very nourishing space for deepening self-awareness, exploring relational dynamics and processing some early traumatic experiences. I appreciate Olivier's ability to initiate co-exploration around embodiment and affect, and I always felt I was with someone attuned, caring and proactive during our sessions!"
 
 ### Annelie
 > "Olivier is very good at building trust and connection, and he really made me feel seen and listened to. With subtle means, emotions awoke in my body, and he was good at holding space and letting me explore whatever came up."

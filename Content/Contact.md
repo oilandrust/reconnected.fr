@@ -8,9 +8,9 @@ seo:
 ::: calendly
 ## Prendre rendez-vous
 
-Choisissez le type de rendez-vous qui vous convient. Je propose un premier contact gratuit, mais vous pouvez aussi prendre un rendez-vous pour une séance directement.
+Je propose un **premier contact de 20 minutes gratuit par Zoom**, n'hésitez pas à réserver un appel. Je suis aussi disponible pour des séances par Zoom ou à mon cabinet à Strasbourg.
 
-![[olivier-rouiller-parc.webp]]
+![[public/content-assets/Assets/olivier-rouiller-strasbourg.webp]]
 :::
 
 ::: contact

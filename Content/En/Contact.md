@@ -8,9 +8,9 @@ seo:
 ::: calendly
 ## Book a session
 
-Choose the kind of appointment you need. Cal.com opens the matching calendar. If this is our first contact, start with the free call.
+I offer a **free 20-minute intro call on Zoom**, so feel free to book an appointment to find out if it would be a good fit to work together. You can also book a regular session online or in my office in Strasbourg.
 
-![[olivier-rouiller-parc.webp]]
+![[Content/Assets/olivier-rouiller-strasbourg.webp]]
 :::
 
 ::: contact
@@ -19,5 +19,5 @@ Choose the kind of appointment you need. Cal.com opens the matching calendar. If
 - **By email** · [o.rouiller@gmail.com](#email)
 - **By phone** · [+33 6 62 91 32 03](#phone)
 
-Feel free to call or write to me for a first contact: we can arrange a free video call or book a session.
+Feel free to call or write an email if you would like to connect or have questions.
 :::
