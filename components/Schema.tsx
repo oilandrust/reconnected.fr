@@ -119,12 +119,12 @@ export default function Schema({ manifest }: { manifest: ContentManifest }) {
         { '@type': 'Place', name: fr ? 'En ligne' : 'Online' },
       ],
       availableLanguage: LANGS,
-      priceRange: '40–89 €',
+      priceRange: '50–80 €',
       makesOffer: [
         { name: fr ? 'Appel découverte (20 min)' : 'Discovery call (20 min)', price: '0' },
-        { name: `${session} – ${fr ? 'tarif solidaire' : 'supported rate'}`, price: '40' },
+        { name: `${session} – ${fr ? 'tarif solidaire' : 'supported rate'}`, price: '50' },
         { name: `${session} – ${fr ? 'tarif de référence' : 'standard rate'}`, price: '65' },
-        { name: `${session} – ${fr ? 'tarif de soutien' : 'supporter rate'}`, price: '89' },
+        { name: `${session} – ${fr ? 'tarif de soutien' : 'supporter rate'}`, price: '80' },
       ].map((offer) => ({ '@type': 'Offer', priceCurrency: 'EUR', ...offer })),
     });
   }
