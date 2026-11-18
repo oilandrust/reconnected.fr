@@ -25,13 +25,13 @@ I offer somatic therapy informed by the Hakomi method. It allows you to gently r
 ::: split
 ## You might recognize yourself here
 
-- The same patterns keep showing up in your relationships: you over-adapt, disappear, or shut down when things get close.
-- You understand a lot "in your head", but your body doesn't seem to follow.
-- You live with a background tension or anxiety and find it hard to really settle.
-- Saying no, setting boundaries or expressing what you really feel is hard.
-- A harsh inner critic, shame or a sense of "not being enough" takes up a lot of space.
-- Painful past experiences still weigh on your present.
-- You are going through a transition (a breakup, moving abroad, a change of direction) and need a space to find yourself again.
+- There's something painful about relationships
+- It's hard to trust people, or you fall for people who hurt you
+- You're not sure what you want when you're in connection
+- You're talking to someone new you like and suddenly start feeling heavy and sad
+- It's hard to feel yourself when you're in connection
+- You abandon yourself to have connection and later regret it
+- You get stuck in your head and look for what to say when you're on a date
 
 ![[deco-foret-brume.webp]]
 :::
@@ -41,13 +41,11 @@ I offer somatic therapy informed by the Hakomi method. It allows you to gently r
 
 ## What you are longing for
 
-Every path is different and I don't promise outcomes. But this is what people I work with often describe over time:
-
-- more ease and presence in their body;
-- noticing their patterns as they happen, and having a bit more choice;
-- more room for emotions without being overwhelmed;
-- more authentic relationships, where they dare to be themselves;
-- a kinder way of relating to themselves.
+- a feeling of ease and connection in your relationships
+- having relationships where you feel seen and connected
+- feeling safe in your relationships while being close
+- more spontaneity and play in new relationships
+- you initiate contact because you want it, not because you feel like you have to
 :::
 
 ::: split

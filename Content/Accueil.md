@@ -1,16 +1,16 @@
 ---
 title: Accueil
-description: "Thérapie de l'attachement, théorie polyvagale, méthode Hakomi, en présentiel à Strasbourg ou en visio. Séances de 50 min, tarif solidaire 50–80 €. Appel découverte gratuit."
+description: "Thérapie somatique et de l'attachement, théorie polyvagale, méthode Hakomi, en présentiel à Strasbourg ou en visio. Séances de 50 min, tarif solidaire 50–80 €. Appel découverte gratuit."
 seo:
-  title: "Psychopraticien à Strasbourg et en ligne – Olivier Rouiller"
+  title: "Thérapie Somatique et de l'attachement à Strasbourg et en ligne – Olivier Rouiller"
   schema: service
 ---
 
 ::: hero
-Olivier Rouiller · Psychopraticien
-# Thérapie somatique et de l'attachement à Strasbourg et en ligne
+Thérapie somatique et de l'attachement à Strasbourg
+# Recalibrez votre système nerveux pour plus de sécurité dans le lien et dans vos projets
 
-Je propose une thérapie somatique et de l'attachement inspirée de la méthode Hakomi et de la théorie polyvagale, qui permet de recalibrer en douceur votre système nerveux pour plus de sécurité dans le lien et dans vos projets.
+Je propose une thérapie somatique et de l'attachement inspirée de la méthode Hakomi et de la théorie polyvagale qui permet de réguler votre système nerveux en douceur.
 
 ![[olivier-rouiller.webp]]
 
@@ -36,8 +36,6 @@ Je propose une thérapie somatique et de l'attachement inspirée de la méthode 
 ![[deco-lever-de-soleil.webp]]
 
 ## Ce que vous recherchez
-
-La thérapie somatique permet de se reconnecter à son moi authentique avec douceur et compassion, cela peut apporter:
 
 - Moins d'anxiété dans le lien, un sentiment de connexion
 - Un attachement plus sécure
