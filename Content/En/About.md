@@ -18,7 +18,7 @@ For about ten years, mindfulness, embodiment, and personal transformation have b
 
 ## A path across countries
 
-I was born in France and lived for fifteen years elsewhere in Europe, mainly in Germany and Sweden. That gave me a multicultural lens: I've seen how much culture shapes our behaviour, our relational patterns and our wounds. I bring this sensitivity to expats and people who live between languages and countries.
+I was born in France and lived for fifteen years elsewhere in Europe, mainly in Germany and Sweden. That gave me a multicultural lens: I've seen how much culture shapes our behavior, our relational patterns and our wounds. I bring this sensitivity to expats and people who live between languages and countries.
 
 For ten years I worked as a software engineer in the video game industry. I now live in Strasbourg, France, where I study psychology at the University of Strasbourg with the aim of becoming a psychologist. Alongside my studies, I work as a somatic practitioner.
 

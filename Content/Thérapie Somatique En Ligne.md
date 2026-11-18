@@ -1,5 +1,5 @@
 ---
-title: Thérapie Somatique En Ligne
+title: Thérapie Somatique En Ligne – Olivier Rouiller, Psychopraticien
 permalink: therapie-somatique-en-ligne
 description: "Thérapie somatique, théorie polyvagale, régulation du système nerveux, méthode Hakomi en visio. Séances de 50 min, tarif solidaire 50–80 €. Appel découverte gratuit."
 seo:
@@ -7,10 +7,10 @@ seo:
 ---
 
 ::: hero
-Olivier Rouiller
-# Thérapie somatique en ligne
+Thérapie somatique et de l'attachement en ligne
+# Recalibrez votre système nerveux pour plus de sécurité dans le lien et dans vos projets
 
-Je propose une thérapie somatique inspirée de la méthode Hakomi et de la théorie polyvagale, qui permet de recalibrer en douceur votre système nerveux pour plus de sécurité dans le lien et dans vos projets.
+Je propose une thérapie somatique et de l'attachement inspirée de la méthode Hakomi et de la théorie polyvagale qui permet de réguler votre système nerveux en douceur.
 
 ![[olivier-rouiller.webp]]
 
@@ -56,6 +56,20 @@ Ma pratique est inspirée de la méthode Hakomi et nourrie par le Focusing, les 
 ![[deco-ricardomoura.webp]]
 :::
 
+::: split
+![[olivier-rouiller-portrait.webp]]
+
+## Qui suis-je ?
+
+Depuis près de 10 ans, je suis passionné par la pleine conscience, l'embodiment, la transformation et les pratiques relationnelles. Je me suis formé à plusieurs modalités de thérapie et j'ai exploré ce qui existait en Suède ainsi qu'à l'international. Ceci m'a conduit à me former à la méthode Hakomi auprès du Hakomi Institute of California.
+
+Je suis né en France et j'ai vécu 15 ans à l'étranger, en Allemagne et en Suède. Cette ouverture me donne un regard multiculturel sur la manière dont l'on entre en relation.
+
+Pendant 10 ans, j'ai travaillé comme ingénieur en informatique, notamment dans le secteur du jeu vidéo. Aujourd'hui, je continue de me former à l'accompagnement ; j'ai complété une licence en psychologie à l'Université de Strasbourg en 2026 et je suis aussi assistant pour les formations du Hakomi Institute of California.
+
+[En savoir plus](/a-propos/)
+:::
+
 ::: facts
 ## En pratique
 
@@ -87,19 +101,6 @@ Ma pratique est inspirée de la méthode Hakomi et nourrie par le Focusing, les 
 > « Olivier sait très bien créer la confiance et le lien ; je me suis vraiment senti·e vu·e et écouté·e. Avec des moyens subtils, des émotions se sont éveillées dans mon corps, et il a su tenir l'espace et me laisser explorer ce qui venait. »
 :::
 
-::: split
-![[olivier-rouiller-portrait.webp]]
-
-## Qui suis-je ?
-
-Depuis près de 10 ans, je suis passionné par la pleine conscience, l'embodiment, la transformation et les pratiques relationnelles. Je me suis formé à plusieurs modalités de thérapie et j'ai exploré ce qui existait en Suède ainsi qu'à l'international. Ceci m'a conduit à me former à la méthode Hakomi auprès du Hakomi Institute of California.
-
-Je suis né en France et j'ai vécu 15 ans à l'étranger, en Allemagne et en Suède. Cette ouverture me donne un regard multiculturel sur la manière dont l'on entre en relation.
-
-Pendant 10 ans, j'ai travaillé comme ingénieur en informatique, notamment dans le secteur du jeu vidéo. Aujourd'hui, je continue de me former à l'accompagnement ; j'ai complété une licence en psychologie à l'Université de Strasbourg en 2026 et je suis aussi assistant pour les formations du Hakomi Institute of California.
-
-[En savoir plus](/a-propos/)
-:::
 
 ::: cta
 ## Envie d'en parler ?
