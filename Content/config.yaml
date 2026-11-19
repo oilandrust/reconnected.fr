@@ -7,6 +7,9 @@ site:
 
 brand: "Re-Connected"
 
+# Site icon (also mirrored to public/favicon.ico on sync).
+favicon: Assets/favicon.ico
+
 # Cookieless pageviews (EU-hosted). Empty / omit to disable.
 analytics:
   goatcounter: "https://re-connected.goatcounter.com/count"

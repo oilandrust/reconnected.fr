@@ -18,7 +18,13 @@ export function generateMetadata(): Metadata {
     title: manifest.config.site.title,
     description: manifest.config.site.description,
     icons: manifest.favicon
-      ? { icon: manifest.favicon }
+      ? {
+          icon: [
+            { url: '/icon.svg', type: 'image/svg+xml' },
+            { url: manifest.favicon, sizes: '48x48' },
+          ],
+          apple: [{ url: '/apple-icon.png', sizes: '180x180', type: 'image/png' }],
+        }
       : { icon: [{ url: EMPTY_FAVICON, type: 'image/gif', sizes: '1x1' }] },
   };
 }
