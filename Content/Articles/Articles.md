@@ -1,6 +1,6 @@
 ---
 title: Articles
-description: "Textes d’Olivier Rouiller sur les thérapies somatiques et les pratiques relationnelles : Somatic Experiencing, Hakomi, Circling."
+description: "Textes d’Olivier Rouiller sur les thérapies somatiques et les pratiques relationnelles : attachement, Hakomi, Somatic Experiencing, Circling."
 seo:
   title: "Articles – thérapies somatiques"
 ---
@@ -8,7 +8,14 @@ seo:
 ::: articles
 # Articles
 
-Textes pour situer les thérapies somatiques, ce qui distingue Somatic Experiencing et Hakomi, et les principes du Circling.
+Textes pour situer les thérapies somatiques, l'attachement, ce qui distingue Somatic Experiencing et Hakomi, et les principes du Circling.
+
+## Comment la thérapie somatique de l'attachement peut aider pour les difficultés relationnelles
+date: 20 novembre 2026
+datetime: 2026-11-20
+href: /articles/therapie-somatique-difficultes-relationnelles/
+
+Schémas d'attachement anxieux ou évitant, blessures relationnelles : comment Hakomi et la thérapie somatique aident à retrouver plus de souplesse dans le lien.
 
 ## Quelle est la différence entre Somatic Experiencing et Hakomi ?
 date: 4 novembre 2026

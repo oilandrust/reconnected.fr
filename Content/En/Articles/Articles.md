@@ -2,13 +2,20 @@
 title: Articles
 lang: en
 permalink: articles
-description: "Essays by Olivier Rouiller on somatic therapies: Somatic Experiencing, Hakomi, trauma, and working through the body."
+description: "Essays by Olivier Rouiller on somatic therapies: attachment, Hakomi, Somatic Experiencing, trauma, and working through the body."
 seo:
   title: "Articles – somatic therapies"
 ---
 
 ::: articles
 # Articles
+
+## How somatic attachment therapy can help with relational difficulties
+date: 20 November 2026
+datetime: 2026-11-20
+href: /en/articles/somatic-attachment-therapy-relational-difficulties/
+
+Anxious or avoidant attachment patterns and relational wounds: how Hakomi-informed somatic therapy helps restore more ease in connection.
 
 ## What is the difference between Somatic Experiencing and Hakomi?
 date: 4 November 2026
