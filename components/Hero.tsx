@@ -13,11 +13,17 @@ export default function Hero({ content }: MarkdownBlockProps) {
     <section className={`rc-block rc-hero${withImage ? ' rc-hero--media' : ''}`}>
       <div className="rc-container rc-hero__inner">
         <div className="rc-hero__copy">
-          {eyebrow ? <p className="rc-eyebrow">{eyebrow}</p> : null}
+          {eyebrow ? <h1 className="rc-eyebrow">{eyebrow}</h1> : null}
           {title ? (
-            <h1 className="rc-h1">
-              <InlineText text={title} />
-            </h1>
+            eyebrow ? (
+              <p className="rc-h1">
+                <InlineText text={title} />
+              </p>
+            ) : (
+              <h1 className="rc-h1">
+                <InlineText text={title} />
+              </h1>
+            )
           ) : null}
           {subtitle ? (
             <p className="rc-hero__subtitle">

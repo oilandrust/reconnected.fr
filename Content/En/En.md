@@ -8,7 +8,7 @@ seo:
 ---
 
 ::: hero
-Somatic and Attachment Therapy Online
+Somatic and Attachment Therapy Online - Olivier Rouiller, Somatic Practitioner
 
 # Recalibrate your nervous system for more security in your life and relationships
 

@@ -7,7 +7,7 @@ seo:
 ---
 
 ::: hero
-Thérapie somatique et de l'attachement en ligne
+Thérapie somatique et de l'attachement en ligne - Olivier Rouiller, Psychopraticien
 # Recalibrez votre système nerveux pour plus de sécurité dans le lien et dans vos projets
 
 Je propose une thérapie somatique et de l'attachement inspirée de la méthode Hakomi et de la théorie polyvagale qui permet de réguler votre système nerveux en douceur.
